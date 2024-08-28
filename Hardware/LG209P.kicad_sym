@@ -80,7 +80,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -10.16 0)
+				(at -13.97 -6.35 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -225,7 +225,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -10.16 0)
+				(at -13.97 -7.62 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -279,7 +279,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -10.16 0)
+				(at -13.97 -5.08 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -441,7 +441,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -10.16 0)
+				(at -13.97 -8.89 0)
 				(length 2.54) hide
 				(name "NC"
 					(effects
