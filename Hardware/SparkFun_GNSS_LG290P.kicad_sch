@@ -8,7 +8,7 @@
 		(title "LG290P Triband GNSS Receiver Breakout")
 		(date "2024-08-21")
 		(rev "v10")
-		(comment 1 "Designed by: N.Seidle")
+		(comment 1 "Designed by: N. Seidle")
 	)
 	(lib_symbols
 		(symbol "LG209P:LG290P"
@@ -1614,7 +1614,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.524 90)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1722,7 +1722,7 @@
 				)
 			)
 			(symbol "Battery_6.8mm_ML414H_IV01E_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -5239,6 +5239,160 @@
 				)
 			)
 			(symbol "D_TVS_0402_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-DiscreteSemi:D_TVS_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD0603-240"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=5186ff3a-844f-4b9e-926a-f506c7d3d551&filename=littelfuse-polymer-esd-suppressor-pesd-catalog-datasheet"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, Diode TVS 24VWM 45VClamp"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "DIO-14502"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun diode TVS thyrector zener"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0603_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -9412,6 +9566,12 @@
 		(uuid "7ebb2dc0-8335-47ff-a7fa-62cdbf5ab0db")
 	)
 	(junction
+		(at 213.36 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8668a84d-8d5e-4954-8d4c-c9e981c0ce23")
+	)
+	(junction
 		(at 76.2 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9434,6 +9594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4b2b82-7acf-46a3-90fd-39a18db83a85")
+	)
+	(junction
+		(at 276.86 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f1910c-34f8-492d-8f66-1f4115d0befe")
 	)
 	(junction
 		(at 242.57 154.94)
@@ -10169,6 +10335,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 41.91) (xy 213.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aab2c89-2183-491b-a609-38977e8c2005")
+	)
+	(wire
+		(pts
 			(xy 139.7 227.33) (xy 140.97 227.33)
 		)
 		(stroke
@@ -10189,6 +10365,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 154.94) (xy 278.13 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dac240c-6031-4a90-92eb-440d8a88b48d")
+	)
+	(wire
+		(pts
 			(xy 189.23 50.8) (xy 189.23 52.07)
 		)
 		(stroke
@@ -10196,6 +10382,16 @@
 			(type default)
 		)
 		(uuid "602cb9a4-6e63-41d2-a63d-41cb5b2f86e3")
+	)
+	(wire
+		(pts
+			(xy 276.86 154.94) (xy 276.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d7beb6-1210-490e-a225-37f9f590fdf0")
 	)
 	(wire
 		(pts
@@ -10369,13 +10565,23 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 154.94) (xy 265.43 154.94)
+			(xy 264.16 154.94) (xy 276.86 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a89b224-a9bd-4412-985b-b75db005972e")
+	)
+	(wire
+		(pts
+			(xy 213.36 40.64) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb0a9b6-e228-4a1a-b6d6-a4ea43d32cc2")
 	)
 	(wire
 		(pts
@@ -10539,16 +10745,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 40.64) (xy 201.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909c84ab-d77d-4b90-b491-9030183d72f8")
-	)
-	(wire
-		(pts
 			(xy 78.74 234.95) (xy 80.01 234.95)
 		)
 		(stroke
@@ -10566,6 +10762,16 @@
 			(type default)
 		)
 		(uuid "92846997-b861-4ccc-992b-26ec81890097")
+	)
+	(wire
+		(pts
+			(xy 276.86 165.1) (xy 276.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a9cbc5-9ca2-4360-8afd-1297e045053d")
 	)
 	(wire
 		(pts
@@ -10726,6 +10932,16 @@
 			(type default)
 		)
 		(uuid "a892f31f-5ed0-4ecb-bcc3-9f20c90f4df8")
+	)
+	(wire
+		(pts
+			(xy 213.36 52.07) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca63d91-102e-41d6-8c50-9ae0b6e2ef19")
 	)
 	(wire
 		(pts
@@ -10936,6 +11152,16 @@
 			(type default)
 		)
 		(uuid "c83e4b73-80e4-489d-92b0-7fc39aa52faa")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 213.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a5ac9f-80a4-400a-9c30-0e2fdd2a054c")
 	)
 	(wire
 		(pts
@@ -12322,7 +12548,7 @@
 	)
 	(global_label "V_BCKP"
 		(shape input)
-		(at 265.43 154.94 0)
+		(at 278.13 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12332,7 +12558,7 @@
 		)
 		(uuid "ed215850-84c0-45d3-ab68-bb38031bc81d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.5514 154.94 0)
+			(at 288.2514 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,6 +12992,72 @@
 			(project "SparkFun_GNSS_LG290P"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 213.36 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d49fc90-ec08-4be0-8667-42c276dae5c2")
+		(property "Reference" "#PWR050"
+			(at 213.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 213.36 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 213.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb7700c-9ed9-4fe4-9007-0e89620802b2")
+		)
+		(instances
+			(project "SparkFun_GNSS_LG290P"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -14086,6 +14378,71 @@
 			(project "SparkFun_GNSS_LG290P"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 276.86 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "381e4785-2e03-4a5a-a3b3-d1fed1bfcb2c")
+		(property "Reference" "#PWR046"
+			(at 276.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af7f2c4d-092c-487f-bbe9-d07a4d78b2f6")
+		)
+		(instances
+			(project "SparkFun_GNSS_LG290P"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16714,6 +17071,71 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 213.36 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "887b09f6-32fb-4c55-9c56-19c4411b94ef")
+		(property "Reference" "#PWR054"
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1364005f-3457-4f9f-bd51-a1a8b3050d02")
+		)
+		(instances
+			(project "SparkFun_GNSS_LG290P"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 66.04 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16772,6 +17194,85 @@
 			(project "SparkFun_GNSS_LG290P"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:D_TVS_0603")
+		(at 276.86 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d02985f-f4b2-4353-bc14-d4e60bd27ae4")
+		(property "Reference" "D7"
+			(at 279.4 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD0603-240"
+			(at 279.4 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 280.67 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=5186ff3a-844f-4b9e-926a-f506c7d3d551&filename=littelfuse-polymer-esd-suppressor-pesd-catalog-datasheet"
+			(at 285.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, Diode TVS 24VWM 45VClamp"
+			(at 288.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-14502"
+			(at 283.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acea2230-43ca-41d9-a7b1-d66d1fa56ab0")
+		)
+		(pin "2"
+			(uuid "56bb8cac-9a61-4554-90ed-55a18af3bfb7")
+		)
+		(instances
+			(project "SparkFun_GNSS_LG290P"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16839,6 +17340,85 @@
 			(project "SparkFun_GNSS_LG290P"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:D_TVS_0603")
+		(at 213.36 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9381d321-8c2c-4350-8412-cba71e1c4ddf")
+		(property "Reference" "D6"
+			(at 215.9 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD0603-240"
+			(at 215.9 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=5186ff3a-844f-4b9e-926a-f506c7d3d551&filename=littelfuse-polymer-esd-suppressor-pesd-catalog-datasheet"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, Diode TVS 24VWM 45VClamp"
+			(at 224.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-14502"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0240c25d-5c85-4195-b9cc-8b202275d536")
+		)
+		(pin "2"
+			(uuid "70e11db4-fd17-4ae8-b3b5-b15744b0cbac")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17066,72 +17646,6 @@
 			(project "SparkFun_GNSS_LG290P"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 201.93 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97bdc27f-50ad-4017-a5e8-a2b87e05000f")
-		(property "Reference" "#PWR010"
-			(at 201.93 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 201.93 36.83 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 201.93 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1528ec35-4d19-489c-a5f5-509262e2a590")
-		)
-		(instances
-			(project "SparkFun_GNSS_LG290P"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
