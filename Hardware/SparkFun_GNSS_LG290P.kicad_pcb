@@ -27803,7 +27803,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Controlled Impedance: JLC7628"
+	(gr_text "Controlled Impedance: JLC04161H-7628"
 		(at 236.22 172.085 0)
 		(layer "F.Fab")
 		(uuid "a85aedd8-7be7-4088-b410-234341463d92")
