@@ -1,0 +1,19 @@
+2024-10-02 11:06:20,335 - cammer_logger - INFO - Running CAMmer
+2024-10-02 11:06:20,336 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2024-10-02 11:06:20,337 - cammer_logger - INFO - CAMMER START: 2024-10-02T11:06:20.337155
+2024-10-02 11:06:21,071 - cammer_logger - INFO - 
+START: 2024-10-02T11:06:20.337155
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-F_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GTL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-In1_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GL2
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-In2_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GL3
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-B_Cu.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GBL
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-F_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GTP
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-B_Paste.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GBP
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-F_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GTO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-B_Silkscreen.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GBO
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-F_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GTS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-B_Mask.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GBS
+Renaming C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized-Edge_Cuts.gbr to C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\SparkFun_GNSS_LG290P_panelized.GKO
+Drill report: C:\Users\nathan.seidle\Dropbox\Projects\SparkFun_GNSS_LG290P\Hardware\Production\drill_report.rpt
+
+2024-10-02 11:06:22,305 - cammer_logger - INFO - CAMmer complete

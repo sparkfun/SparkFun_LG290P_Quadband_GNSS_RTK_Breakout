@@ -1,0 +1,28 @@
+Drill report for SparkFun_GNSS_LG290P_panelized.kicad_pcb
+Created on 2024-10-02T11:06:20-0600
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SparkFun_GNSS_LG290P_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (1288 holes)
+    T2  0.600mm  0.0236"  (32 holes)  (with 32 slots)
+    T3  1.016mm  0.0400"  (200 holes)
+
+    Total plated holes count 1520
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  0.650mm  0.0256"  (16 holes)
+    T5  3.100mm  0.1220"  (32 holes)
+
+    Total unplated holes count 48

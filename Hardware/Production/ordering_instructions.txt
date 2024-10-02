@@ -1,0 +1,14 @@
+Ordering Instructions:
+Panel dimensions: 109.70 x 187.92 mm.
+Controlled Impedance: JLC7628
+Material: TG155
+Solder Mask: Red
+Silkscreen: White
+Layers: 4
+Finish: ENIG
+Thickness: 1.6mm
+Outer Copper Weight: 1oz
+Inner Copper Weight: 0.5oz
+Minimum track width: 0.15mm (6.00mil)
+Minimum via drill: 0.30mm (11.81mil)
+No Clean Process
