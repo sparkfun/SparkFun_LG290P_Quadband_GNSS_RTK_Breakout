@@ -27,6 +27,16 @@
 
 
 /* ================================================================================== */
+/* Code Block                                                                         */
+/* ================================================================================== */
+
+/* Fixes highlighting of code blocks in other elements (i.e. content tabs, buttons, etc.) */
+.md-typeset a:focus code, .md-typeset a:hover code {
+	background-color: var(--md-code-fg-color);
+}
+
+
+/* ================================================================================== */
 /* Content Tabs                                                                       */
 /* ================================================================================== */
 
@@ -307,13 +317,14 @@
 
 
 /* ================================================================================== */
-/* Grid Cards                                                                     */
+/* Grid Cards                                                                         */
 /* ================================================================================== */
 
-.grid.cards.products{
+/* For Bobby - delete */
+/* .grid.cards.products{
 	grid-template-columns: repeat(auto-fill, 280px);
-	/* justify-content: center; */
-}
+	justify-content: center;
+} */
 
 /* Sets grid width for introduction */
 .grid.cards.desc {

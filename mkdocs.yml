@@ -146,7 +146,7 @@ plugins:
   # Redirects page navigation
   - redirects:
       redirect_maps:
-        'index.md': 'quick_start.md'
+        'index.md': 'introduction.md'
 
   # Enables improved security for external links
   - privacy:
@@ -353,11 +353,11 @@ not_in_nav: |
 
 # Webpage navigation tabs
 nav:
-  - Getting Started: quick_start.md
-  - Hardware:
-    - Overview: hardware_overview.md
-    - Assembly: hardware_assembly.md
-  - Software: software_overview.md
+  - Getting Started:
+    - Introduction: introduction.md
+    - Hardware Overview: hardware_overview.md
+    - Hardware Assembly: hardware_assembly.md
+    - Software Overview: software_overview.md
   - Reference: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md

@@ -1,12 +1,26 @@
 SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)
 ========================================
 
-[![SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)]()](https://www.sparkfun.com/products/26620)
+[![SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/6/3/7/26620-LG290P-Quadband-GNSS-Breakout-Feature.jpg)](https://www.sparkfun.com/products/26620)
 
 [*SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) (GPS-26620)*](https://www.sparkfun.com/products/26620)
 
-[Renesas](https://www.renesas.com/)
-[SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://www.sparkfun.com/products/26620)
+
+The [SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://www.sparkfun.com/products/26620) features the Quectel LG290P GNSS module. The board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including UART, SPI*, and I2C*.
+
+The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module is capable of simultaneously receiving signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services* (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), and RTK corrections for precision navigation with a fast convergence time and reliable performance.
+
+The built-in NIC anti-jamming unit provides professional-grade interference signal detection and elimination algorithms, which effectively mitigate against multiple narrow-band interference sources and significantly improves the signal reception performance in complex electromagnetic environments. Additionally, the embedded algorithms ensure reliable positioning in complex scenarios such as urban environments and deep tree cover.
+
+With its performance advantages of high-precision and low power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
+
+> [!NOTE]
+> `*`: Feature is still under development
+
+> [!IMPORTANT]
+> - Currently, only the UART interface is supported by the module. All three UART ports are broken out to the USB-C connector *(via CH342 USB-serial converter)*, 4-pin locking JST connector, and BlueSMiRF 6-pin header.
+> - Additionally, the corrections for some of the PPP services may not be implemented yet.
+
 
 
 Documentation
@@ -25,14 +39,15 @@ Repository Contents
 
 * **[/docs](/docs/)** - Online documentation files
     * [assets](/docs/assets/) - Assets files
+        * [3d_model](/docs/assets/3d_model/) - Files for the 3D models
+            * [3D CAD Model](/docs/assets/3d_model/cad_model.step) (.step)
         * [board_files](/docs/assets/board_files/) - Files for the product design
-            * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
+            * [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
             * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
             * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
-            * [Graphical Datasheet](/docs/assets/board_files/graphical_datasheet.pdf) (.pdf)
         * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
         * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
-* **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
+* **[/Hardware](/Hardware/)** - Hardware design files (.brd, .sch)
   * **[/Production](/Production/)** - Production files
 
 Product Variants
