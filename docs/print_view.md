@@ -16,8 +16,6 @@ icon: material/printer
 # Software Overview
 --8<-- "./software_overview.md:5"
 
-# Examples
-
 # Resources
 --8<-- "./resources.md:5"
 

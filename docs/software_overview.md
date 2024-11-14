@@ -144,7 +144,7 @@ By default, the UART ports are configured to transmit and receive `NMEA 0183` an
 In the QGNSS software, users can click on the ++"Advance"++ button, at the bottom of the `QConsole` window, to configure the settings for the messages sent to the LG290P. Selecting `NMEA` and `CRLF` from the drop-down menu of the **Checksum Type** and **Suffix** options, will automatically calculate and append the `<checksum>` value, carriage return, and line follow to the end of the message entered in the **Data Input** field.
 
 <figure markdown>
-[![NMEA message setting](./assets/img/hookup_guide/qgnss-message_settings.png){ width="600" }](./assets/img/hookup_guide/qgnss-message_settings.pngg "Click to enlarge")
+[![NMEA message setting](./assets/img/hookup_guide/qgnss-message_settings.png){ width="600" }](./assets/img/hookup_guide/qgnss-message_settings.png "Click to enlarge")
 <figcaption markdown>
 The settings for the messages transmitted from the QConsole.
 </figcaption>

@@ -20,7 +20,7 @@ Spot something wrong? Please let us know. [![Open Issues Badge](https://img.shie
 
 All of our documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/tree/main/docs) of the [SparkFun LG290P Quadband GNSS RTK Breakout repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout).
+- The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/tree/main/docs) of the [SparkFun LG290P Quadband GNSS RTK Breakout repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout).
 
 ### 🔍 Spot something wrong?
 
@@ -31,14 +31,14 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/fork).
 2. Add your correction(s) or improvement(s) to the markdown file(s)
 3. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.
-	* Once received, the documentation specialist will automatically be notified.
-	* We will review your suggested improvement(s) to make sure they are correct and fit within our documentation standards.
+	- Once received, the documentation specialist will automatically be notified.
+	- We will review your suggested improvement(s) to make sure they are correct and fit within our documentation standards.
 
 ## Problems in the Hardware Design
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/tree/main/Hardware) of the [SparkFun LG290P Quadband GNSS RTK Breakout repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout).
+- Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/tree/main/Hardware) of the [SparkFun LG290P Quadband GNSS RTK Breakout repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout).
 
 ### Does something not make sense? 🤔
 
@@ -51,7 +51,7 @@ If part of the board's functionality is missing, please [open an issue](https://
 !!! tip "Design Considerations"
 	Please keep in mind that we may intentionally exclude certain functions of the board to meet our product design requirements.
 
-	* *For example, our Qwiic Micro boards are intended to fit on a small board layout and only use I^2^C communication; therefore, we may not have the SPI and interrupt pins available for users.*
+	- *For example, our Qwiic Micro boards are intended to fit on a small board layout and only use I^2^C communication; therefore, we may not have the SPI and interrupt pins available for users.*
 
 
 ### Do you wish to contribute directly to improving the board design?
