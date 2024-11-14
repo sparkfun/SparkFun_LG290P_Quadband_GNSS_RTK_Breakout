@@ -154,6 +154,7 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 <div markdown>
 
 <center>
+![QR code to product video](./assets/img/qr_code/quectel-video.png){ .qr width=100 }
 <article class="video-500px">
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>

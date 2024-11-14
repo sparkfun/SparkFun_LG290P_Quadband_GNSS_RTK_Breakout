@@ -18,7 +18,7 @@ icon: material/book-open-page-variant
 	- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/Quectel_LG290P(03)_Hardware_Design_V1.0.pdf)
 	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/Quectel_LG290P(03)_Firmware_Upgrade_Guide_V1.0.pdf)
 - :material-github: [Hardware Repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout)
-- :material-youtube: [SFE Product Showcase](https://www.youtube.com/watch?v=ci_T3abVPSw)
+- :material-youtube: [SFE Product Showcase](https://www.youtube.com/watch?v=a-aU4-Yodzg)
 
 
 ### :sfe-logo: Additional Resources
