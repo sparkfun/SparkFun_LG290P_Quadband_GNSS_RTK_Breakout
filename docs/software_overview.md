@@ -121,7 +121,7 @@ Available `COM`ports for the CH342. Select the lowest enumeration or the port la
 #### Configure the LG290P
 By default, the UART ports are configured to transmit and receive `NMEA 0183` and/or `RTCM 3.x` messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (`PQTM`) for users to configure the LG290P, following the data format of the `NMEA` protocol.
 
-??? terminal "Data Format - PQTM Messages"
+???+ terminal "Data Format - PQTM Messages"
 	The expected structure of the data in the proprietary PQTM messages is shown below:
 
 	<figure markdown>
@@ -139,7 +139,7 @@ By default, the UART ports are configured to transmit and receive `NMEA 0183` an
 	`<CR>` & `<LF>`: Carriage return; followed by a new line
 
 	- Depending on the terminal emulator, these may be options configured in the program settings.
-	- Otherwise, usrs may need to add the `\r` and `\n` characters at the end of the message.
+	- Otherwise, users may need to add the `\r` and `\n` characters at the end of the message.
 
 In the QGNSS software, users can click on the ++"Advance"++ button, at the bottom of the `QConsole` window, to configure the settings for the messages sent to the LG290P. Selecting `NMEA` and `CRLF` from the drop-down menu of the **Checksum Type** and **Suffix** options, will automatically calculate and append the `<checksum>` value, carriage return, and line follow to the end of the message entered in the **Data Input** field.
 
@@ -149,6 +149,17 @@ In the QGNSS software, users can click on the ++"Advance"++ button, at the botto
 The settings for the messages transmitted from the QConsole.
 </figcaption>
 </figure>
+
+
+???+ tip "Display the QConsole Toolbar"
+	There is a toolbar for the QConsole, which has a bunch of tools that users may find useful. This includes, a search function, scroll-lock button, pause/clear the message feed, etc. To open/close the toolbar inside the QConsole, ++"right-click"++ on the mouse and select the `Show Tool` option from the drop-down menu or utilize the keyboard shortcut: ++ctrl++ + ++q++.
+
+	<figure markdown>
+	[![QConsole Toolbar](./assets/img/hookup_guide/qgnss-toolbar.gif){ width="400" }](./assets/img/hookup_guide/qgnss-toolbar.gif "Click to enlarge")
+	<figcaption markdown>
+	++"Right-click"++ on the mouse and select the `Show Tool` option, inside the QConsole.
+	</figcaption>
+	</figure>
 
 ??? example "Example - `PQTMCFGUART` Message"
 	As an example, try utilizing the `PQTMCFGUART` PQTM message. Enter `$PQTMCFGUART,R*` into the **Data Input*** field of the QConsole. DOn't forget to select the `NMEA` and `CRLF` options from ++"Advance"++ settings menu. If entered and configured properly, the value `36` should pop up in the **Checksum** field of the QConsole; then, click on the <kbd>:material-send:</kbd> button to send the message.

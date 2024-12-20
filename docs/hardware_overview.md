@@ -3,7 +3,7 @@ icon: material/cog
 ---
 
 ## :material-folder-cog: Design Files
-The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board features three UART ports, which are accessible through the USB-C connector, BlueSMiRF *(6-pin PTH)* header , and 4-pin locking JST connector.  Users can also interface with the board through the 24 PTH pins that are broken out around the edge of the board. For the GNSS antenna, an SMA antenna connector is provided on the edge of the board; additionally, there are also SMD pads for another *(RP-)*SMA connector to output a PPS signal.  We also provide two 4-pin JST Qwiic connectors for future use, when the I<sup>2</cup> feature becomes available for the GNSS module.
+The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board features three UART ports, which are accessible through the USB-C connector, BlueSMiRF *(6-pin PTH)* header , and 4-pin locking JST connector. Users can also interface with the board through the 24 PTH pins that are broken out around the edge of the board. For the GNSS antenna, an SMA antenna connector is provided on the edge of the board; additionally, there are also SMD pads for another <i>(RP-)</i>SMA connector to output a PPS signal. We also provide two 4-pin JST Qwiic connectors for future use, when the I<sup>2</sup>C feature becomes available for the GNSS module.
 
 
 <!-- Import the component -->
@@ -11,23 +11,57 @@ The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, a
 
 <div class="grid cards desc" markdown>
 
-- :kicad-logo:{ .enlarge-logo } Design Files
+-   :kicad-logo:{ .enlarge-logo } Design Files
 
 	---
 
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-cube-outline: [STEP File](./assets/3d_model/cad_model.step)
+	<!-- - :material-rotate-3d: [STEP File](./assets/3d_model/cad_model.step) -->
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf):
 		- 1.70" x 1.70" (43.2mm x 43.2mm)
 		- Four mounting holes:
 			- 4-40 screw compatible
 
 
--	  <center>
-	<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="1.49" exposure="0.75" shadow-softness="0.58" camera-target="-0.001m 0m 0m" camera-orbit="0deg 70deg 0.1259m" field-of-view="25.11deg" environment-image="legacy" style="width: 100%; height: 450px;">
-	</model-viewer>
-	</center>
+-   <!-- Boxes in tabs -->
+
+	=== "3D Model"
+		<center>
+		<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="1.49" exposure="0.75" shadow-softness="0.58" camera-target="-0.001m 0m 0m" camera-orbit="0deg 70deg 0.1259m" field-of-view="25.11deg" environment-image="legacy" style="width: 100%; height: 450px;">
+		</model-viewer>
+		</center>
+
+	=== "Dimensions"
+		<center>
+		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
+		<figcaption markdown>
+		Dimensions of the Quad-band GNSS RTK breakout board.
+		</figcaption>
+		</center>
+
+
+		??? tip "Need more measurements?"
+			For more information about the board's dimensions, users can download the [KiCad files](./assets/board_files/kicad_files.zip) for this board. These files can be opened in KiCad and additional measurements can be made with the measuring tool.
+
+			!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
+				KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
+
+				<center>
+				[Download :kicad-logo:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary width="250px" }
+				</center>
+
+	
+			??? info ":straight_ruler: Measuring Tool"
+				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
+
+				<center>
+				<article class="video-500px">
+				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</article>
+				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
+				</center>
 
 </div>
 
@@ -358,15 +392,6 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 
 			**What is Correction Data?**</a>
 
-		-   <a href="https://www.septentrio.com/en/learn-more/insights/gnss-corrections-demystified">
-			<figure markdown>
-			![Tutorial Thumbnail](https://www.septentrio.com/sites/default/files/styles/blog_picture_v2/public/blog/Septentrio-GNSS-corrections-map-world-web.png)
-			</figure>
-
-			---
-
-			**GNSS Corrections Demystified**</a>
-
 		</div>
 
 
@@ -488,7 +513,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 	??? info "UART Protocols"
 		#### UART Protocols
-		By default, the UART ports are configured to transmit and receive `NMEA 0183` and/or `RTCM 3.x` messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (`PQTM`) for users to configure the LG290P, following the data format of the `NMEA` protocol. The expected structure of these proprietary messages is shown below:
+		By default, these UART ports are configured to transmit and receive `NMEA 0183` and/or `RTCM 3.x` messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (`PQTM`) for users to configure the LG290P that follows a data format similar to the `NMEA` protocol. The expected structure of these proprietary messages is shown below:
 
 		<figure markdown>
 		[![NMEA data structure](./assets/img/hookup_guide/nmea_protocol.png){ width="600" }](./assets/img/hookup_guide/nmea_protocol.png "Click to enlarge")
@@ -498,7 +523,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 		</figure>
 
 		=== "NMEA"
-			A full list of compatible `NMEA 0183` v4.11 messages, is provided in section **2.2. Standard Messages** of the [GNSS Protocol 	Specification](./assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is 	used for outputting GNSS data, as detailed by the [National Marine Electronics Association](https://www.nmea.org/) organization.
+			A full list of compatible `NMEA 0183` v4.11 messages, is provided in section **2.2. Standard Messages** of the [GNSS Protocol Specification](./assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is used for outputting GNSS data, as detailed by the [National Marine Electronics Association](https://www.nmea.org/) organization.
 
 			??? abstract "List of Standard NMEA Messages"
 				<center>
@@ -516,7 +541,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 
 		=== "PQTM"
-			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. 	PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is used to configure or read the settings for the 	LG290P GNSS module.
+			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is used to configure or read the settings for the LG290P GNSS module.
 
 			??? abstract "List of Proprietary Quectel Messages"
 				<center>
@@ -567,7 +592,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 
 		=== "RTCM"
-			A full list of compatible `RTCM v3` messages, is provided in section **3. RTCM Protocol** of the [GNSS Protocol Specification](./	assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is used for 	transferring GNSS raw measurement data, as detailed by the [Radio Technical Commission for Maritime Services](https://www.rtcm.	org/) organization.
+			A full list of compatible `RTCM v3` messages, is provided in section **3. RTCM Protocol** of the [GNSS Protocol Specification](./assets/component_documentation/Quectel_LG290P_GNSS_Protocol_Specification_v1-0.pdf) manual. This protocol is used for transferring GNSS raw measurement data, as detailed by the [Radio Technical Commission for Maritime Services](https://www.rtcm.org/) organization.
 
 			??? abstract "List of Supported RTCMv3 *(MSM)* Messages"
 				<center>
@@ -728,7 +753,7 @@ The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from 
 
 
 ## JST Connector
-The Quad-band GNSS RTK breakout features a 4-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the pins of the `UART3` port, through the JST connector with our [breadboard cable](https://www.sparkfun.com/products/18079)(1) or through the PTH pins. The pin layout of the JST connector is compatible with many of our [serial radios and adapter cables](../hardware_assembly/#radio-transceivers).
+The Quad-band GNSS RTK breakout features a 4-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the pins of the `UART3` port, through the JST connector with our [breadboard cable](https://www.sparkfun.com/products/17240)(1) or through the PTH pins. The pin layout of the JST connector is compatible with many of our [serial radios and adapter cables](../hardware_assembly/#radio-transceivers).
 { .annotate }
 
 1. <a href="https://www.sparkfun.com/products/17240">
@@ -959,4 +984,7 @@ The jumpers on the back of the Quad-band GNSS RTK breakout board.
 - **`SHLD`** - This jumper can be cut to disconnect the shielding of the USB-C connector from the `GND` plane of the board
 
 !!! info
-	By default, [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") signal is connected to the `PPS` pin.
+	- By default, [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") signal is connected to the `PPS` pin.
+	- By default, the `VSEL` jumper is connected to `3V3` pad for a regulated 3.3V output on the 4-pin JST-GH connector.
+	- By default, the `BT_VCC` jumper provides a regulated 3.3V output to the BlueSMiRF header.
+

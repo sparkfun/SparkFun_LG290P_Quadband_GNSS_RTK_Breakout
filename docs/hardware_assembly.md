@@ -22,7 +22,7 @@ The Quad-band GNSS RTK breakout board with USB-C cable being attached.
 In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "Global Navigation Satellite System") signals, users will need to connect a compatible antenna. For the best performance, we recommend users choose an active, multi-band GNSS antenna and utilize a low-loss cable.
 
 
-!!! warning "Antenna Specifications"
+???+ warning "Antenna Specifications"
 	- Passive antennas are not recommended for the LG290P GNSS module.
 	- To mitigate the impact of out-of-band signals, utilize an active antenna whose SAW filter is placed in front of the LNA in the internal framework.
 		- **DO NOT** select and antenna with the LNA placed in the front.
@@ -100,14 +100,16 @@ When connecting the Quad-band GNSS RTK breakout board to other products, users s
 </div>
 
 
-!!! warning "Default Baud Rate"
+!!! info "Default Baud Rate"
 	The default baud rate of the UART ports on the LG290P is **460800bps**.
 
 
 
 ### Radio Transceivers
-We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
+We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) (1) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
+{ .annotate }
 
+1. While the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032) may function with a **3.3V** input, their specifications stipulate that a **5V** power supply be provided.
 
 <center>
 
@@ -147,7 +149,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 <td markdown>
 	<u>**Voltage Input**</u><br>
 	- SiK: 5V<br>
-	- LoRaSerial: 3.3 to 5V
+	- LoRaSerial: 3.3 to 5V (1)
 </td>
 <td align="center" style="vertical-align:middle;">UART - Receive</td>
 <td align="center" style="vertical-align:middle;">UART - Transmit</td>
@@ -211,8 +213,8 @@ We have designed the locking JST connector to be plun-n-play with the following 
 	</div>
 
 
-!!! note "Radio Transceivers and Cables"
-	!!! failure "Default Baud Rate"
+???+ note "Radio Transceivers and Cables"
+	!!! warning "Default Baud Rate"
 		The baud rate for these radios are configured by the [`SERIAL_SPEED` parameter](https://docs.sparkfun.com/SparkFun_LoRaSerial/at_commands/#serial-commands). The default configuration is `SERIAL_SPEED`: **57600bps**.
 
 
@@ -360,7 +362,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 	When soldering a header to the back of the board, be aware that you'll loose access to the jumper in that area.
 
 	<figure markdown>
-	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-bluesmirf_header3.png){ width="400" }](./assets/img/hookup_guide/assembly-bluesmirf_header3.png "Click to enlarge")
+	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-bluesmirf_header.png){ width="400" }](./assets/img/hookup_guide/assembly-bluesmirf_header.png "Click to enlarge")
 	<figcaption markdown>
 	Female header covering the `BT-VCC` jumper.
 	</figcaption>
@@ -371,11 +373,11 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 </div>
 
 
-!!! warning "Default Baud Rate"
+!!! info "Default Baud Rate"
 	The default baud rate of the UART ports on the LG290P is **460800bps**.
 
 === "BlueSMiRF"
-	!!! failure "Default Baud Rate"
+	!!! warning "Default Baud Rate"
 		The baud rate for the BlueSMiRF transceiver is configured by the [`SerialSpeed` parameter](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/at_commands/#serial-commands). The default configuration is `SerialSpeed`: **115200bps**.
 
 
@@ -419,7 +421,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 	</figure>
 
 === "OpenLog"
-	!!! failure "Default Baud Rate"
+	!!! warning "Default Baud Rate"
 		The baud rate for OpenLog needs to be configured in the `config.txt` file.
 
 
@@ -431,3 +433,41 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 	An [OpenLog](https://www.sparkfun.com/products/13712) connected to the Quad-band GNSS RTK breakout board.
 	</figcaption>
 	</figure>
+
+
+
+## PPS SMA Connector
+SMD pads are provided for the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") output signal, where an SMA or RP-SMA connector can be soldered. This allows users to easily access the timing signal through a standardized connector, instead of the `PPS` [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pin.
+
+<figure markdown>
+[![Soldering an SMA connector](./assets/img/hookup_guide/assembly-soldering-sma.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-sma.jpg "Click to enlarge")
+<figcaption markdown>
+Soldering an SMA connector to the SMD pads of the Quad-band GNSS RTK breakout board.
+</figcaption>
+</figure>
+
+
+???+ note "RP-SMA and SMA Connectors"
+	<div class="grid cards" markdown>
+
+	-   <a href="https://www.sparkfun.com/products/592">
+		<figure markdown>
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/4/1/1/Vertical-RP-SMA-0.jpg)
+		</figure>
+
+		---
+
+		**Reverse Polarized SMA Connector**<br>
+		WRL-00592</a>
+
+	-   <a href="https://www.sparkfun.com/products/593">
+		<figure markdown>
+		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/1/4/00593-SMA_Connector-01.jpg)
+		</figure>
+
+		---
+
+		**SMA Connector**<br>
+		WRL-00593</a>
+
+	</div>

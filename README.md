@@ -26,8 +26,9 @@ With its performance advantages of high-precision and low power consumption, thi
 Documentation
 --------------
 
-* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/)** - The hookup guide for the Flatiron - RA8D1 hosted by GitHub pages.<br>
+* **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/)** - The hookup guide for the SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) hosted by GitHub pages.<br>
   [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout/actions/workflows/mkdocs.yml)
+* [SparkFun LG290P GNSS Arduino Library](https://github.com/sparkfun/SparkFun_LG290P_GNSS_Arduino_Library) - An Arduino library for the LG290P GNSS module
 
 
 *Need to download or print our hookup guide?*
@@ -53,7 +54,8 @@ Repository Contents
 Product Variants
 ----------------
 
-* [GPS-26620](https://www.sparkfun.com/products/26620)- v1.0, Initial Release
+* [GPS-26620](https://www.sparkfun.com/products/26620) - v1.0, Initial Release
+* [GPS-26916](https://www.sparkfun.com/products/26916) - SparkFun RTK Postcard *(w/ ESP32)*
 
 Version History
 ---------------

@@ -125,7 +125,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 
 
-??? note "GNSS Antennas & Accessories"
+???+ note "GNSS Antennas & Accessories"
 	For the best performance, we recommend users choose an **active**, multi-band GNSS antenna and utilize a low-loss cable. For additional options, please check out the [GPS Antenna](https://www.sparkfun.com/categories/18) category of our product catalog.
 
 	=== "GNSS Antennas"
@@ -280,7 +280,7 @@ To get started, users will need a few items. Some users may already have a few o
 
 
 
-??? note "Serial Transceivers, UART Adapters, and USB Cables"
+???+ note "Serial Transceivers, UART Adapters, and USB Cables"
 	To configure the UART ports that are broken out on the board, users will need a [UART adapter](https://www.sparkfun.com/categories/349). Once configured, the UART ports can utilize one of our RF transceivers to send/receive RTCM messages.
 
 	=== "Transceivers"
@@ -783,6 +783,15 @@ As a more sophisticated product, we will skip over the more fundamental tutorial
 	---
 
 	**What is GPS RTK?**</a>
+
+-   <a href="https://docs.sparkfun.com/SparkFun_RTK_Postcard/">
+	<figure markdown>
+	![Tutorial Thumbnail](https://docs.sparkfun.com/SparkFun_RTK_Postcard/assets/img/thumbnail.jpg)
+	</figure>
+
+	---
+
+	**RTK Postcard Hookup Guide**</a>
 
 -   <a href="https://learn.sparkfun.com/tutorials/62">
 	<figure markdown>

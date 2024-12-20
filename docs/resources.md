@@ -17,6 +17,9 @@ icon: material/book-open-page-variant
 	- :fontawesome-solid-file-pdf: [RTK Application Note](./assets/component_documentation/Quectel_LG290P(03)_RTK_Application_Note_V1.0.pdf)
 	- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/Quectel_LG290P(03)_Hardware_Design_V1.0.pdf)
 	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/Quectel_LG290P(03)_Firmware_Upgrade_Guide_V1.0.pdf)
+	- :fontawesome-solid-file-pdf: [CH342 Datasheet](./assets/component_documentation/CH342%20Datasheet.pdf)
+	- :fontawesome-solid-file-pdf: [RT9080 Datasheet](./assets/component_documentation/DS9080.pdf)
+	- :fontawesome-solid-file-pdf: [JST-GH Connector Specifications](./assets/component_documentation/JST-GH_datasheet.pdf)
 - :material-github: [Hardware Repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout)
 - :material-youtube: [SFE Product Showcase](https://www.youtube.com/watch?v=a-aU4-Yodzg)
 

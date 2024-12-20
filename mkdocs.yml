@@ -71,6 +71,9 @@ theme:
     # Enables instant previews globally, for all internal links
     - navigation.instant.preview
 
+    # Highlights all occurrences of a search result when clicked on
+    - search.highlight
+
 
   # Adds light/dark theme to the webpage
   palette:
@@ -208,7 +211,7 @@ plugins:
       # Disables plugin on local builds
       enabled: !ENV [CI, false]
 
-      repository: sparkfun/SparkFun_RTK_mosaic-X5
+      repository: sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout
       branch: main
 
   # Add git authors at bottom of the page
@@ -394,7 +397,9 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
     - Software Overview: software_overview.md
-  - Reference: resources.md
+  - Reference: 
+    - Resources: resources.md
+    - PQMT Commands: pqmt_commands.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
     - Submit Issues: github/file_issue.md
