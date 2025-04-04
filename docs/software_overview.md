@@ -179,16 +179,15 @@ The settings for the messages transmitted from the QConsole.
 
 
 ### PyGPSClient
-!!! warning "Software Limitations"
-	With this software, users will only be able to view the data from the NMEA messages and connect to an NTRIP caster. Users will not be able to configure the LG290P module with the built-in console.
 
-As an alternative to QGNSS, for users with computers that run on MacOS or Linux, we recommend [PyGPSClient](https://github.com/semuconsulting/PyGPSClient) as an option for viewing the data from the NMEA messages and connecting to an NTRIP caster. However, users should be aware that this GUI interface is currently limited to only receiving UART messages and cannot send messages to configure the LG290P module.
+As an alternative to QGNSS, for users with computers that run on MacOS or Linux (_including Raspberry Pi_), we recommend [PyGPSClient](https://github.com/semuconsulting/PyGPSClient) as an option for configuring the LG290P (_via proprietary NMEA sentences_), viewing standard and proprietary NMEA data from the receiver and connecting to an NTRIP caster.
 
 ??? info "Resources"
 	For additional information, users can refer to the following resources for the PyGPSClient software:
 
 	- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
 	- [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
+	- [LG290P Configuration](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#nmeaconfig)
 	- [PyPI Project](https://pypi.org/project/pygpsclient/)
 
 
@@ -200,19 +199,19 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 
 	- 
 		``` bash
-		python3 -m pip install pygpsclient
+		python3 -m pip install --upgrade pygpsclient
 		```
 	- 
 		``` bash
-		pip install pygpsclient
+		pip install --upgrade pygpsclient
 		```
 
 	!!! info "System Requirements"
-		This installation method requires an internet connection. Additionally, users will also need administrative privileges *(or root access `sudo`)* for the installation.
+		This installation method requires an internet connection. Additionally, users may need administrative privileges *(or root access `sudo`)* for some installations.
 
 
 #### Connecting to the LG290P
-Before users can connect to the Quad-band GNSS RTK breakout board, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS module.
+Before users can connect to the Quad-band GNSS RTK breakout board, they will need to specify the settings of the UART port in PyGPSClient. Once configured, users can select the <kbd>:material-usb:</kbd> button and PyGPSClient will automatically attempt to connect to the GNSS module. If the UART port does not appear in the Serial Port list in the PyGPSClient UI, it can be added as a user-defined port e.g. `/dev/ttyAMA0`.
 
 - Below, is a list of the default settings for `UART` ports of the LG290P. These settings should be selected in the configuration menu.
 - For the `Serial Port`, select the port with the lowest enumeration of the CH342 or the port labeled with channel `A` from the drop-down menu.
