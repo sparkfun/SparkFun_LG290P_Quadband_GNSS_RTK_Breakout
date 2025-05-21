@@ -1407,13 +1407,13 @@
 </div>
 <div>
 <p>When connecting the Quad-band GNSS RTK breakout board to other products, users should be aware of the pin connections between the devices. The table below, details the pin connections of the locking JST connector on the Quad-band GNSS RTK breakout board.</p>
-<center>
+<article style="text-align: center;">
 <table border="1">
 <tr>
 <th style="vertical-align:middle;">Pin Number</th>
 <td align="center">
-    **1**<br>
-    *(Left Side)*
+    <strong>1</strong><br>
+    <em>(Left Side)</em>
 </td>
 <th align="center">2</td>
 <th align="center">3</td>
@@ -1432,16 +1432,16 @@
 <tr>
 <th style="vertical-align:middle;">Function</th>
 <td>
-    <u>**Voltage Output**</u><br>
-    - **Default: 3.3V**<br>
+    <u><strong>Voltage Output</strong></u><br>
+    - <strong>Default: 3.3V</strong><br>
     - 3.3V or 5V
 </td>
-<td align="center" style="vertical-align:middle;">`UART3` - Receive</td>
-<td align="center" style="vertical-align:middle;">`UART3` - Transmit</td>
+<td align="center" style="vertical-align:middle;"><code>UART3</code> - Receive</td>
+<td align="center" style="vertical-align:middle;"><code>UART3</code> - Transmit</td>
 <td align="center" style="vertical-align:middle;">Ground</td>
 </tr>
 </table>
-</center>
+</article>
 </div>
 </div>
 <div class="admonition info">
@@ -1453,22 +1453,21 @@
 <ol>
 <li>While the <a href="https://www.sparkfun.com/products/19032" target="_blank" rel="noopener">SiK Telemetry Radio v3</a> may function with a <strong>3.3V</strong> input, their specifications stipulate that a <strong>5V</strong> power supply be provided.</li>
 </ol>
-<center>
-
-<table border="1" markdown>
-<tr markdown>
+<article style="text-align: center;">
+<table border="1">
+<tr>
 <th style="vertical-align:middle;">Pin Number</th>
-<td align="center" markdown>
-    **1**<br>
-    *(Left Side)*
+<td align="center">
+    <strong>1</strong><br>
+    <em>(Left Side)</em>
 </td>
-<td align="center" markdown>**2**</td>
-<td align="center" markdown>**3**</td>
-<td align="center" markdown>**4**</td>
-<td align="center" markdown>**5**</td>
-<td align="center" markdown>
-    **6**<br>
-    *(Right)*
+<td align="center"><strong>2</strong></td>
+<td align="center"><strong>3</strong></td>
+<td align="center"><strong>4</strong></td>
+<td align="center"><strong>5</strong></td>
+<td align="center">
+    <strong>6</strong><br>
+    <em>(Right)</em>
 </td>
 </tr>
 <tr>
@@ -1486,29 +1485,27 @@
 <td align="center" style="vertical-align:middle;">RTS</td>
 <td align="center" style="vertical-align:middle;">GND</td>
 </tr>
-<tr markdown>
+<tr>
 <th style="vertical-align:middle;">Function</th>
-<td markdown>
-    <u>**Voltage Input**</u><br>
+<td>
+    <u><strong>Voltage Input</strong></u><br>
     - SiK: 5V<br>
     - LoRaSerial: 3.3 to 5V (1)
 </td>
 <td align="center" style="vertical-align:middle;">UART - Receive</td>
 <td align="center" style="vertical-align:middle;">UART - Transmit</td>
-<td align="center" style="vertical-align:middle;" markdown>
+<td align="center" style="vertical-align:middle;">
     Flow Control<br>
-    *Clear-to-Send*
+    <em>Clear-to-Send</em>
 </td>
-<td align="center" style="vertical-align:middle;" markdown>
+<td align="center" style="vertical-align:middle;">
     Flow Control<br>
-    *Ready-to-Send*
+    <em>Ready-to-Send</em>
 </td>
 <td align="center" style="vertical-align:middle;">Ground</td>
 </tr>
 </table>
-
-</center>
-
+</article>
 <details class="tip">
 <summary>Radio Pin Connections</summary>
 <div class="grid" markdown>
@@ -1523,7 +1520,7 @@ The pin connections between a radio and the Quad-band GNSS RTK breakout board.
 </div>
 <div markdown>
 <p>However, the flow control pins <em>(<code>CTS</code> and <code>RTS</code>)</em> are not available on the Quad-band GNSS RTK breakout board. Therefore, when connecting either of the radios, the pin connections should follow the table below:</p>
-<center>
+<article style="text-align: center;" markdown>
 <p><table>
 <tr>
 <th>Board</th>
@@ -1538,7 +1535,7 @@ The pin connections between a radio and the Quad-band GNSS RTK breakout board.
 <td align="center">GND</td>
 </tr>
 </table></p>
-</center>
+</article>
 </div>
 </div>
 </details>
@@ -1787,7 +1784,7 @@ WRL-00593</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 20, 2024 07:14:49"><span class="timeago" datetime="2024-12-20T07:14:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 20, 2024 07:14:49">2024-12-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 21, 2025 14:55:48"><span class="timeago" datetime="2025-05-21T14:55:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 21, 2025 14:55:48">2025-05-21</span>
   </span>
 
     
