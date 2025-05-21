@@ -649,7 +649,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 	<figure markdown>
 	[![I/O for PPS signal](./assets/img/hookup_guide/pps_signal.png){ width="400" }](./assets/img/hookup_guide/pps_signal.png "Click to enlarge")
 	<figcaption markdown>
-	The timing signal's outputs on the Tri-band GNSS RTK breakout board.
+	The timing signal's outputs on the Quad-band GNSS RTK breakout board.
 	</figcaption>
 	</figure>
 
@@ -671,7 +671,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 	<figure markdown>
 	[![I/O for RTK signal](./assets/img/hookup_guide/pin-rtk2.png){ width="400" }](./assets/img/hookup_guide/pin-rtk2.png "Click to enlarge")
 	<figcaption markdown>
-	The RTK signal's outputs on the Tri-band GNSS RTK breakout board.
+	The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
 	</figcaption>
 	</figure>
 
@@ -703,7 +703,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 	<figure markdown>
 	[![Reset Pin](./assets/img/hookup_guide/reset.png){ width="400" }](./assets/img/hookup_guide/reset.png "Click to enlarge")
 	<figcaption markdown>
-	The `RST` pin on the Tri-band GNSS RTK breakout board.
+	The `RST` pin on the Quad-band GNSS RTK breakout board.
 	</figcaption>
 	</figure>
 
@@ -735,7 +735,7 @@ The SMA connector for an external GNSS antenna on the Quad-band GNSS RTK breakou
 <figure markdown>
 [![SMD Pads](./assets/img/hookup_guide/sma-pps_smd.png){ width="400" }](./assets/img/hookup_guide/sma-pps_smd.png "Click to enlarge")
 <figcaption markdown>
-The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from the Tri-band GNSS RTK breakout board.
+The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from the Quad-band GNSS RTK breakout board.
 </figcaption>
 </figure>
 
