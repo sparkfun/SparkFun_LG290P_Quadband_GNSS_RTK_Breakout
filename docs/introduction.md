@@ -16,12 +16,10 @@ icon: material/book-open-page-variant
 	</figure></a>
 
 
-	<center>
-	<article class="video-500px">
+	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/a-aU4-Yodzg" title="Product Showcase Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	![QR code to product video](./assets/img/qr_code/product_video.png){ .qr width=100 }
 	</article>
-	</center>
 
 
 -	The SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) features the Quectel LG290P GNSS module. The board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including UART, SPI[^1], and I^2^C[^1].
@@ -32,9 +30,9 @@ icon: material/book-open-page-variant
 
 	With its performance advantages of high-precision and low power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[&nbsp;![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }&nbsp;&nbsp;&nbsp;](https://www.sparkfun.com/products/26620){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 
 </div>
@@ -636,10 +634,10 @@ To get started, users will need a few items. Some users may already have a few o
 		<div markdown>
 
 		<!-- Qwiic Banner -->
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Qwiic Logo - light theme](./assets/img/qwiic/qwiic_logo-light.png#only-light){ width=400 }](https://www.sparkfun.com/qwiic)
 		[![Qwiic Logo - dark theme](./assets/img/qwiic/qwiic_logo-dark.png#only-dark){ width=400 }](https://www.sparkfun.com/qwiic)
-		</center>
+		</article>
 
 		---
 
@@ -649,13 +647,10 @@ To get started, users will need a few items. Some users may already have a few o
 
 		<div style="max-height=400px;" markdown>
 
-		<center>
-		<div class="video-500px">
+		<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 		<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 		![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
-		</div>
-		</center>
+		</article>
 
 		</div>
 

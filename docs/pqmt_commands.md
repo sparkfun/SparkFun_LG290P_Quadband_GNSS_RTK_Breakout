@@ -8,7 +8,7 @@ Below, are excerpts for a few of the PQTM messages from the [GNSS Protocol Speci
 	A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf) manual. This protocol is used to configure or read the settings for the LG290P GNSS module.
 
 	??? abstract "List of Proprietary Quectel Messages"
-		<center>
+		<article style="text-align: center;" markdown>
 
 		| Message                             | Type Mode    | Message Description                              |
 		| :---------------------------------- | :----------: | :----------------------------------------------- |
@@ -52,7 +52,7 @@ Below, are excerpts for a few of the PQTM messages from the [GNSS Protocol Speci
 		| PQTMCFGRSID                         | Input/Output | Sets/gets the reference station ID               |
 		| PQTMCFGRTCM                         | Input/Output | Sets/gets RTCM                                   |
 
-		</center>
+		</article>
 
 
 ## Save Parameters/Restore to Default Settings

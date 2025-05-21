@@ -50,9 +50,9 @@ The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the
 
 QGNSS is highly intuitive GNSS evaluation software that is easy to use, personalized, and compatible with leading Quectel technologies. The software allows users to define or apply GNSS product configurations for specific use cases. Saving, restoring, or sharing configurations between different products and users is easy. The software supports product evaluation with a choice of views to observe static and dynamic behavior of the connected a Quectel GNSS receiver.
 
-<center>
+<article style="text-align: center;" markdown>
 [:octicons-download-16:{ .heart } Download the QGNSS Software *(v2.0)* from Quectel](https://www.quectel.com/download/qgnss_v2-0_en/){ .md-button .md-button--primary target="blank" }
-</center>
+</article>
 
 !!! info "System Requirements"
 	**Operating System:** Windows
@@ -320,9 +320,9 @@ SparkFun LG290P Quadband RTK GNSS Arduino Library in the library manager of the 
 !!! tip "Manually Download the Arduino Library"
 	For users who would like to manually download and install the library, the `*.zip` file can be accessed from the [GitHub repository](https://github.com/sparkfun/SparkFun_LG290P_GNSS_Arduino_Library) or downloaded by clicking the button below.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[:octicons-download-16:{ .heart } Download the Arduino Library](https://github.com/sparkfun/SparkFun_LG290P_GNSS_Arduino_Library/archive/refs/heads/main.zip){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 </div>
 

@@ -5,9 +5,9 @@ icon: sfe-logo
 !!! warning "Need Help?"
 	If you need technical assistance or more information on a product that is not working as you expected, we recommend heading over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page for some initial troubleshooting.
 
-	<center>
+	<article style="text-align: center;" markdown>
 	[SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }
-	</center>
+	</article>
 
 	If you can't find what you need there, the [SparkFun GNSS Forum](https://forum.sparkfun.com/viewforum.php?f=116) is a great place to ask questions.
 
@@ -17,6 +17,6 @@ icon: sfe-logo
 
 
 <!-- QR Code for Hookup Guide (Displayed when printed) -->
-<center>
+<article style="text-align: center;" markdown>
 ![QR code to the hookup guide](./assets/img/qr_code/hookup_guide.png){ .qr }
-</center>
+</article>

@@ -28,18 +28,18 @@ The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, a
 -   <!-- Boxes in tabs -->
 
 	=== "3D Model"
-		<center>
+		<article style="text-align: center;" markdown>
 		<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="1.49" exposure="0.75" shadow-softness="0.58" camera-target="-0.001m 0m 0m" camera-orbit="0deg 70deg 0.1259m" field-of-view="25.11deg" environment-image="legacy" style="width: 100%; height: 450px;">
 		</model-viewer>
-		</center>
+		</article>
 
 	=== "Dimensions"
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
 		<figcaption markdown>
 		Dimensions of the Quad-band GNSS RTK breakout board.
 		</figcaption>
-		</center>
+		</article>
 
 
 		??? tip "Need more measurements?"
@@ -48,20 +48,18 @@ The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, a
 			!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 				KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
 
-				<center>
+				<article style="text-align: center;" markdown>
 				[Download :kicad-logo:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary width="250px" }
-				</center>
+				</article>
 
 	
 			??? info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<center>
-				<article class="video-500px">
+				<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr width=100 }
 				</article>
-				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-				</center>
 
 </div>
 
@@ -187,12 +185,10 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 
 <div markdown>
 
-<center>
-![QR code to product video](./assets/img/qr_code/quectel-video.png){ .qr width=100 }
-<article class="video-500px">
+<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 <iframe src="https://player.vimeo.com/video/1000742664?dnt=1&amp;app_id=122963" title="Quectel: Product Intro for LG290P GNSS Module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![QR code to product video](./assets/img/qr_code/quectel-video.png){ .qr width=100 }
 </article>
-</center>
 
 </div>
 
@@ -358,7 +354,7 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 	- The reliability of RTK corrections are inherently reduced in [multipath environments](https://en.wikipedia.org/wiki/Multipath_propagation).
 
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| Correction Method                                                                             | Horizontal                   | Vertical                | Velocity                                |
 	| :-------------------------------------------------------------------------------------------- | :--------------------------: | :---------------------: | :-------------------------------------: |
@@ -366,7 +362,7 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 	| [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic")    | **0.8cm** *(+1ppm)*<br>~0.3" | 1.5cm *(+1ppm)*<br>~.6" |                                         |
 
 
-	</center>
+	</article>
 
 
 	??? info "RTK Corrections"
@@ -468,7 +464,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 	??? tip "Pin Connections"
 		When connecting to the board's UART pins to another device, the pins should be connected based upon the flow of their data.
 
-		<center>
+		<article style="text-align: center;" markdown>
 
 		<table>
 		<tr>
@@ -485,7 +481,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 		</tr>
 		</table>
 
-		</center>
+		</article>
 
 	</div>
 
@@ -526,7 +522,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 			A full list of compatible `NMEA 0183` v4.11 messages, is provided in section **2.2. Standard Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf) manual. This protocol is used for outputting GNSS data, as detailed by the [National Marine Electronics Association](https://www.nmea.org/) organization.
 
 			??? abstract "List of Standard NMEA Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message | Type Mode | Message Description               |
 				| :-----: | :-------: | :-------------------------------- |
@@ -537,14 +533,14 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 				| VTG | Output | Course Over Ground & Ground Speed        |
 				| GLL | Output | Geographic Position – Latitude/Longitude |
 
-				</center>
+				</article>
 
 
 		=== "PQTM"
 			A full list of PQTM messages (proprietary NMEA messages defined by Quectel) supported by LG290P, is provided in section **2.3. PQTM Messages** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf) manual. This protocol is used to configure or read the settings for the LG290P GNSS module.
 
 			??? abstract "List of Proprietary Quectel Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message            | Type Mode    | Message Description                              |
 				| :----------------- | :----------: | :----------------------------------------------- |
@@ -588,14 +584,14 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 				| PQTMCFGRSID        | Input/Output | Sets/gets the reference station ID               |
 				| PQTMCFGRTCM        | Input/Output | Sets/gets RTCM                                   |
 
-				</center>
+				</article>
 
 
 		=== "RTCM"
 			A full list of compatible `RTCM v3` messages, is provided in section **3. RTCM Protocol** of the [GNSS Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf) manual. This protocol is used for transferring GNSS raw measurement data, as detailed by the [Radio Technical Commission for Maritime Services](https://www.rtcm.org/) organization.
 
 			??? abstract "List of Supported RTCMv3 *(MSM)* Messages"
-				<center>
+				<article style="text-align: center;" markdown>
 
 				| Message | Type Mode | Message Description                              |
 				| :--: | :----------: | :----------------------------------------------- |
@@ -638,7 +634,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 				| 1136 | Input/Output | NavIC/IRNSS MSM6 |
 				| 1137 | Input/Output | NavIC/IRNSS MSM7 |
 
-				</center>
+				</article>
 
 
 
@@ -779,7 +775,7 @@ The JST connector on the Quad-band GNSS RTK breakout board.
 	#### Pin Connections
 	When connecting the Quad-band GNSS RTK breakout board to other products, users need to be aware of the pin connections between the devices.
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	<table border="1" markdown>
 	<tr>
@@ -812,7 +808,7 @@ The JST connector on the Quad-band GNSS RTK breakout board.
 	</tr>
 	</table>
 
-	</center>
+	</article>
 
 
 	<div class="grid" markdown>
@@ -821,7 +817,7 @@ The JST connector on the Quad-band GNSS RTK breakout board.
 
 	When connecting the Quad-band GNSS RTK breakout board to our radios, the pin connections should follow the table below. If the flow control is not enabled, the only the `RX`, `TX`, and `GND` pins are utilized.
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	<table markdown>
 	<tr>
@@ -838,7 +834,7 @@ The JST connector on the Quad-band GNSS RTK breakout board.
 	</tr>
 	</table>
 
-	</center>
+	</article>
 
 	</div>
 
@@ -875,7 +871,7 @@ The 6-pin BlueSMiRF PTH header on the Quad-band GNSS RTK breakout board.
 	#### Pin Connections
 	When connecting the Quad-band GNSS RTK breakout board to other products, users need to be aware of the pin connections between the devices.
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	<table border="1" markdown>
 	<tr>
@@ -910,7 +906,7 @@ The 6-pin BlueSMiRF PTH header on the Quad-band GNSS RTK breakout board.
 	</tr>
 	</table>
 
-	</center>
+	</article>
 
 
 

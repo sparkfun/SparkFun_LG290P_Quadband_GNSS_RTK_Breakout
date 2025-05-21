@@ -60,7 +60,7 @@ The [Telemetry Radio v3](https://www.sparkfun.com/products/19032) connected to t
 
 When connecting the Quad-band GNSS RTK breakout board to other products, users should be aware of the pin connections between the devices. The table below, details the pin connections of the locking JST connector on the Quad-band GNSS RTK breakout board.
 
-<center>
+<article style="text-align: center;" markdown>
 
 <table border="1" markdown>
 <tr markdown>
@@ -93,7 +93,7 @@ When connecting the Quad-band GNSS RTK breakout board to other products, users s
 </tr>
 </table>
 
-</center>
+</article>
 
 </div>
 
@@ -111,7 +111,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 
 1. While the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032) may function with a **3.3V** input, their specifications stipulate that a **5V** power supply be provided.
 
-<center>
+<article style="text-align: center;" markdown>
 
 <table border="1" markdown>
 <tr markdown>
@@ -165,7 +165,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 </tr>
 </table>
 
-</center>
+</article>
 
 
 ??? tip "Radio Pin Connections"
@@ -189,7 +189,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 
 	However, the flow control pins *(`CTS` and `RTS`)* are not available on the Quad-band GNSS RTK breakout board. Therefore, when connecting either of the radios, the pin connections should follow the table below:
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	<table>
 	<tr>
@@ -206,7 +206,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 	</tr>
 	</table>
 
-	</center>
+	</article>
 
 	</div>
 
