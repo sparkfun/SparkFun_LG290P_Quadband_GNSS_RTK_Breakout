@@ -214,11 +214,6 @@ plugins:
       repository: sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout
       branch: main
 
-  # Add git authors at bottom of the page
-  - git-authors:
-      # Disables plugin on local builds
-      enabled: !ENV [CI, false]
-
   # Enables use of Git submodules and larger code base
   - monorepo:
       # Disables plugin on local builds
