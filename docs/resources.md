@@ -10,7 +10,7 @@ icon: material/book-open-page-variant
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 	- :material-cube-outline: [STEP File](./assets/3d_model/cad_model.step)
-- :fontawesome-solid-computer: [QGNSS Software *(v2.0)*](https://www.quectel.com/download/qgnss_v2-0_en/)
+- :fontawesome-solid-computer: [QGNSS Software *(v2.x)*](https://www.quectel.com/download/qgnss_v2-0_en/)
 - Component Documentation
 	- :fontawesome-solid-file-pdf: [Product Specifications](./assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
 	- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf)

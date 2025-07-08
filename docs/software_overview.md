@@ -51,7 +51,7 @@ The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the
 QGNSS is highly intuitive GNSS evaluation software that is easy to use, personalized, and compatible with leading Quectel technologies. The software allows users to define or apply GNSS product configurations for specific use cases. Saving, restoring, or sharing configurations between different products and users is easy. The software supports product evaluation with a choice of views to observe static and dynamic behavior of the connected a Quectel GNSS receiver.
 
 <article style="text-align: center;" markdown>
-[:octicons-download-16:{ .heart } Download the QGNSS Software *(v2.0)* from Quectel](https://www.quectel.com/download/qgnss_v2-0_en/){ .md-button .md-button--primary target="blank" }
+[:octicons-download-16:{ .heart } Download the QGNSS Software *(v2.x)* from Quectel](https://www.quectel.com/download/qgnss_v2-0_en/){ .md-button .md-button--primary target="blank" }
 </article>
 
 !!! info "System Requirements"
