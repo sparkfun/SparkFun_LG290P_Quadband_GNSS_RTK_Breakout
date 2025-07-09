@@ -31,7 +31,7 @@ icon: material/book-open-page-variant
 	With its performance advantages of high-precision and low power consumption, this board is an ideal choice for high-precision navigation applications, such as intelligent robots, UAVs, precision agriculture, mining, surveying, and autonomous navigation.
 
 	<article style="text-align: center;" markdown>
-	[&nbsp;![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr }&nbsp;&nbsp;Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }&nbsp;&nbsp;&nbsp;](https://www.sparkfun.com/products/26620){ .md-button .md-button--primary }
+	![QR code to product page](./assets/img/qr_code/product-low.png){ .tinyqr } [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/26620){ .md-button .md-button--primary }
 	</article>
 
 
