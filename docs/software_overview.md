@@ -20,7 +20,6 @@ The USB drivers for the CH342 USB-to-Serial converter can be downloaded from the
 
 	[:octicons-download-16:{ .heart } Download Page for `CH341SER_MAC.ZIP`](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html){ .md-button .md-button--primary target="blank" }
 
-
 </div>
 
 
@@ -178,9 +177,36 @@ The settings for the messages transmitted from the QConsole.
 	</figure>
 
 
-### PyGPSClient
 
+#### Firmware Update
+In the event that users need to update the firmware on the LG290P module, please refer to the instructions in Quectel's [reference manual](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf). For the latest firmware, users should reach out to Quectel through their [forum page](https://forums.quectel.com/); otherwise, we have some of the firmware releases available in one of our [GitHub repositories](https://github.com/sparkfun/SparkFun_RTK_Postcard/tree/main/Firmware).
+
+
+<article style="text-align: center;" markdown>
+
+[Archived Firmware Releases](https://github.com/sparkfun/SparkFun_RTK_Postcard/tree/main/Firmware){ .md-button .md-button--primary target="blank" } [Firmware Upgrade Manual](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf){ .md-button .md-button--primary target="blank" }
+
+</article>
+
+
+!!! warning "Synchronization Step"
+	In the [reference manual](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf), **Step 9** instructs users to wait for a synchronization process. If users refer to an earlier section of the manual, this process requires the LG290P module to receive a `SYNC_WORD1` within 500ms of powering up. Therefore, users must restart the module during the synchronization step. In the QGNSS software *(+v2.1)*, this can be performed with the reboot button.
+
+
+	<figure markdown>
+	[![Reboot button](./assets/img/hookup_guide/qgnss-reboot_button.png){ width="400" }](./assets/img/hookup_guide/qgnss-reboot_button.png "Click to enlarge")
+	<figcaption markdown>Reboot button in the QGNSS software *(v2.1)*.</figcaption>
+	</figure>
+
+
+	!!! tip
+		For previous versions of the QGNSS software, prior to initializing the firmware upgrade process, users can send the `PQTMSRR` message to perform a system reset and reboot the GNSS receiver. We recommend having everything pre-configured to upgrade the firmware as the module usually initializes within 5s of sending the `PQTMSRR` message.
+
+
+
+### PyGPSClient
 As an alternative to QGNSS, for users with computers that run on MacOS or Linux (_including Raspberry Pi_), we recommend [PyGPSClient](https://github.com/semuconsulting/PyGPSClient) as an option for configuring the LG290P (_via proprietary NMEA sentences_), viewing standard and proprietary NMEA data from the receiver and connecting to an NTRIP caster.
+
 
 ??? info "Resources"
 	For additional information, users can refer to the following resources for the PyGPSClient software:
@@ -191,8 +217,10 @@ As an alternative to QGNSS, for users with computers that run on MacOS or Linux 
 	- [PyPI Project](https://pypi.org/project/pygpsclient/)
 
 
+
 #### Installation
 There are a variety of [installation methods](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation) detailed in the GitHub repository's `README.md` file. However, we recommend utilizing the `pip` installation method.
+
 
 !!! terminal "Installation Commands"
 	Depending on how Python is installed on the computer, one of the following commands should allow users to install the software.
@@ -206,8 +234,10 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 		pip install --upgrade pygpsclient
 		```
 
+
 	!!! info "System Requirements"
 		This installation method requires an internet connection. Additionally, users may need administrative privileges *(or root access `sudo`)* for some installations.
+
 
 
 #### Connecting to the LG290P
@@ -245,6 +275,7 @@ Specify the settings for the UART port in QGNSS.
 </div>
 
 </div>
+
 
 
 ### Terminal Emulator
