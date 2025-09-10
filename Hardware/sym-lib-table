@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "LG209P")(type "KiCad")(uri "${KIPRJMOD}/LG209P.kicad_sym")(options "")(descr ""))
-)
