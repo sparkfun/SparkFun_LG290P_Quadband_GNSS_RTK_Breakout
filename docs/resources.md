@@ -13,13 +13,15 @@ icon: material/book-open-page-variant
 - :fontawesome-solid-computer: [QGNSS Software *(v2.x)*](https://www.quectel.com/download/qgnss_v2-0_en/)
 - Component Documentation
 	- :fontawesome-solid-file-pdf: [Product Specifications](./assets/component_documentation/Quectel_LG290P03_GNSS_Module_Specification_V1.2.pdf)
-	- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03_gnss_protocol_specification_v1-0.pdf)
-	- :fontawesome-solid-file-pdf: [RTK Application Note](./assets/component_documentation/quectel_gnss_rtk_application_note_v1-0.pdff)
+	- :fontawesome-solid-file-pdf: [Protocol Specification](./assets/component_documentation/quectel_lg290p03lgx80p03_gnss_protocol_specification_v1-1.pdf)
 	- :fontawesome-solid-file-pdf: [Hardware Design](./assets/component_documentation/quectel_lg290p03_hardware_design_v1-1.pdf)
-	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/quectel_lg290p03_firmware_upgrade_guide_v1-0.pdf)
+	- :fontawesome-solid-file-pdf: [Application Note - RTK Corrections](./assets/component_documentation/quectel_lg290p03lgx80p03_rtk_application_note_v1-1.pdf)
+	- :fontawesome-solid-file-pdf: [Application Note - Base Station](./assets/component_documentation/quectel_lg290p03lgx80p_series_base_station_mode_application_note_v1-1.pdf)
+	- :fontawesome-solid-file-pdf: [Firmware Upgrade Guide](./assets/component_documentation/quectel_lg290p03lgx80p03_firmware_upgrade_guide_v1-1.pdf)
 	- :fontawesome-solid-file-pdf: [CH342 Datasheet](./assets/component_documentation/CH342%20Datasheet.pdf)
 	- :fontawesome-solid-file-pdf: [RT9080 Datasheet](./assets/component_documentation/DS9080.pdf)
 	- :fontawesome-solid-file-pdf: [JST-GH Connector Specifications](./assets/component_documentation/JST-GH_datasheet.pdf)
+	- :fontawesome-solid-file-pdf: [JST-SH Connector Specifications](./assets/component_documentation/JST-SH_datasheet.pdf)
 - :material-github: [Hardware Repository](https://github.com/sparkfun/SparkFun_LG290P_Quadband_GNSS_RTK_Breakout)
 - :material-youtube: [SFE Product Showcase](https://www.youtube.com/watch?v=a-aU4-Yodzg)
 
