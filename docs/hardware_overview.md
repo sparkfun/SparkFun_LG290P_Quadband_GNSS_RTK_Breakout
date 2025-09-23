@@ -3,7 +3,7 @@ icon: material/cog
 ---
 
 ## :material-folder-cog: Design Files
-The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board features three UART ports, which are accessible through the USB-C connector, BlueSMiRF *(6-pin PTH)* header , and 4-pin locking JST connector. Users can also interface with the board through the 24 PTH pins that are broken out around the edge of the board. For the GNSS antenna, an SMA antenna connector is provided on the edge of the board; additionally, there are also SMD pads for another <i>(RP-)</i>SMA connector to output a PPS signal. We also provide two 4-pin JST Qwiic connectors for future use, when the I<sup>2</sup>C feature becomes available for the GNSS module.
+The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, and connectors are exactly the same as our very popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html); and can be used as a drop-in replacement. The board features three UART ports, which are accessible through the USB-C connector, BlueSMiRF *(6-pin PTH)* header , and 4-pin locking JST connector. Users can also interface with the board through the 24 PTH pins that are broken out around the edge of the board. For the GNSS antenna, an SMA antenna connector is provided on the edge of the board; additionally, there are also SMD pads for another <i>(RP-)</i>SMA connector to output a PPS signal. We also provide two 4-pin JST Qwiic connectors for future use, when the I<sup>2</sup>C feature becomes available for the GNSS module.
 
 
 <!-- Import the component -->
@@ -749,10 +749,10 @@ The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from 
 
 
 ## JST Connector
-The Quad-band GNSS RTK breakout features a 4-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the pins of the `UART3` port, through the JST connector with our [breadboard cable](https://www.sparkfun.com/products/17240)(1) or through the PTH pins. The pin layout of the JST connector is compatible with many of our [serial radios and adapter cables](../hardware_assembly/#radio-transceivers).
+The Quad-band GNSS RTK breakout features a 4-pin [JST GH connector](./assets/component_documentation/JST-GH_datasheet.pdf), which is polarized and locking. Users can access the pins of the `UART3` port, through the JST connector with our [breadboard cable](https://www.sparkfun.com/breadboard-to-jst-ghr-04v-cable-4-pin-x-1-25mm-pitch.html)(1) or through the PTH pins. The pin layout of the JST connector is compatible with many of our [serial radios and adapter cables](../hardware_assembly/#radio-transceivers).
 { .annotate }
 
-1. <a href="https://www.sparkfun.com/products/17240">
+1. <a href="https://www.sparkfun.com/breadboard-to-jst-ghr-04v-cable-4-pin-x-1-25mm-pitch.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/2/2/3/17240-Breadboard_to_GHR-04V-S_Cable_-_150mm-01.jpg){ width="300" }
 	</figure>

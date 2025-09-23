@@ -106,10 +106,10 @@ When connecting the Quad-band GNSS RTK breakout board to other products, users s
 
 
 ### Radio Transceivers
-We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) (1) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
+We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) (1) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
 { .annotate }
 
-1. While the [SiK Telemetry Radio v3](https://www.sparkfun.com/products/19032) may function with a **3.3V** input, their specifications stipulate that a **5V** power supply be provided.
+1. While the [SiK Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) may function with a **3.3V** input, their specifications stipulate that a **5V** power supply be provided.
 
 <article style="text-align: center;" markdown>
 
@@ -220,7 +220,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/19032">
+	-   <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/8/6/3/4/19032-SiK_Telemetry_Radio_V3_-_915MHz__100mW-01.jpg)
 		</figure>
@@ -230,7 +230,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 		**SiK Telemetry Radio V3 - 915MHz, 100mW**<br>
 		WRL-19032</a>
 
-	-   <a href="https://www.sparkfun.com/products/20029">
+	-   <a href="https://www.sparkfun.com/sparkfun-loraserial-kit-915mhz-enclosed.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/9/7/9/0/SparkFun_LoRaSerial_Enclosed_-_20029-1.jpg)
 		</figure>
@@ -240,7 +240,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 		**SparkFun LoRaSerial Kit - 915MHz (Enclosed)**<br>
 		WRL-20029</a>
 
-	-   <a href="https://www.sparkfun.com/products/17239">
+	-   <a href="https://www.sparkfun.com/jst-ghr-04v-to-jst-ghr-06v-cable-1-25mm-pitch.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/6/2/2/2/17239-GHR-04V-S_to_GHR-06V-S_Cable_-_150mm-01.jpg)
 		</figure>
@@ -250,7 +250,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 		**JST-GHR-04V to JST-GHR-06V Cable - 1.25mm pitch**<br>
 		CAB-17239</a>
 
-	-   <a href="https://www.sparkfun.com/products/17854">
+	-   <a href="https://www.sparkfun.com/ghr-04v-s-to-ghr-06v-s-cable-100mm.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/0/3/4/17854-GHR-04V-S_to_GHR-06V-S_Cable_-_50mm-01.jpg)
 		</figure>
@@ -320,7 +320,7 @@ The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through 
 
 
 ### BlueSMiRF Header (`UART2`)
-The BlueSMiRF header pins on the Quad-band GNSS RTK board, breaks out the `UART2` port of the LG290P GNSS module. This pin layout is perfect for connecting a [serial-to-UART adapter](https://www.sparkfun.com/products/15096) or a transceiver for serial data, such as the [BlueSMiRF Bluetooth&trade; serial-link](https://www.sparkfun.com/products/23287).
+The BlueSMiRF header pins on the Quad-band GNSS RTK board, breaks out the `UART2` port of the LG290P GNSS module. This pin layout is perfect for connecting a [serial-to-UART adapter](https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html) or a transceiver for serial data, such as the [BlueSMiRF Bluetooth&trade; serial-link](https://www.sparkfun.com/sparkfun-bluesmirf-v2-headers.html).
 
 
 <div class="grid" markdown>
@@ -381,7 +381,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 		The baud rate for the BlueSMiRF transceiver is configured by the [`SerialSpeed` parameter](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/at_commands/#serial-commands). The default configuration is `SerialSpeed`: **115200bps**.
 
 
-	Connecting a [BlueSMiRF transceiver](https://www.sparkfun.com/products/23287) to a female header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to pair their board with a mobile device; and log PNT data on the mobile device and/or connect the LG290P to an NTRIP server for RTK corrections *(through mobile device's cellular or WiFi connection)*.
+	Connecting a [BlueSMiRF transceiver](https://www.sparkfun.com/sparkfun-bluesmirf-v2-headers.html) to a female header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to pair their board with a mobile device; and log PNT data on the mobile device and/or connect the LG290P to an NTRIP server for RTK corrections *(through mobile device's cellular or WiFi connection)*.
 
 	<div class="grid" markdown>
 
@@ -411,7 +411,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 	</div>
 
 === "UART Adapter"
-	Connecting a UART adapter *([Serial Basic](https://www.sparkfun.com/products/15096))* to a male header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to configure the LG290P, when the USB connection is unavailable.
+	Connecting a UART adapter *([Serial Basic](https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html))* to a male header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to configure the LG290P, when the USB connection is unavailable.
 
 	<figure markdown>
 	[![Serial Basic](./assets/img/hookup_guide/assembly-uart_adapter.jpg){ width="400" }](./assets/img/hookup_guide/assembly-uart_adapter.jpg "Click to enlarge")
@@ -425,7 +425,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 		The baud rate for OpenLog needs to be configured in the `config.txt` file.
 
 
-	Connecting an [OpenLog](https://www.sparkfun.com/products/13712) to the Quad-band GNSS RTK breakout board. This will allow users to automatically log PNT data from the LG290P.
+	Connecting an [OpenLog](https://www.sparkfun.com/sparkfun-openlog.html) to the Quad-band GNSS RTK breakout board. This will allow users to automatically log PNT data from the LG290P.
 
 	<figure markdown>
 	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-openlog_bottom.jpg){ width="400" }](./assets/img/hookup_guide/assembly-openlog_bottom.jpg "Click to enlarge")
@@ -450,7 +450,7 @@ Soldering an SMA connector to the SMD pads of the Quad-band GNSS RTK breakout bo
 ???+ note "RP-SMA and SMA Connectors"
 	<div class="grid cards" markdown>
 
-	-   <a href="https://www.sparkfun.com/products/592">
+	-   <a href="https://www.sparkfun.com/reverse-polarized-sma-connector.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/4/1/1/Vertical-RP-SMA-0.jpg)
 		</figure>
@@ -460,7 +460,7 @@ Soldering an SMA connector to the SMD pads of the Quad-band GNSS RTK breakout bo
 		**Reverse Polarized SMA Connector**<br>
 		WRL-00592</a>
 
-	-   <a href="https://www.sparkfun.com/products/593">
+	-   <a href="https://www.sparkfun.com/sma-connector.html">
 		<figure markdown>
 		![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/1/7/1/4/00593-SMA_Connector-01.jpg)
 		</figure>

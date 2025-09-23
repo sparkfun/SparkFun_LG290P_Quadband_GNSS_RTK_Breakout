@@ -1,12 +1,12 @@
 SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)
 ========================================
 
-[![SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/6/3/7/26620-LG290P-Quadband-GNSS-Breakout-Feature.jpg)](https://www.sparkfun.com/products/26620)
+[![SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/6/3/7/26620-LG290P-Quadband-GNSS-Breakout-Feature.jpg)](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html)
 
-[*SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) (GPS-26620)*](https://www.sparkfun.com/products/26620)
+[*SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic) (GPS-26620)*](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html)
 
 
-The [SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://www.sparkfun.com/products/26620) features the Quectel LG290P GNSS module. The board's dimensions, pin layout, and connectors are exactly the same as our vary popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/products/16481); and can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including UART, SPI*, and I2C*.
+The [SparkFun Quadband GNSS RTK Breakout - LG290P (Qwiic)](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html) features the Quectel LG290P GNSS module. The board's dimensions, pin layout, and connectors are exactly the same as our very popular [SparkFun GPS-RTK-SMA Breakout - ZED-F9P (Qwiic)](https://www.sparkfun.com/sparkfun-gps-rtk-sma-breakout-zed-f9p-qwiic.html); and can be used as a drop-in replacement. The board also accommodates users with a diverse choice of interfaces including UART, SPI*, and I2C*.
 
 The LG290P module is a quad-band, multi-constellation, high-precision, RTK GNSS receiver. The module is capable of simultaneously receiving signals from the `L1`, `L2`, `L5`, and `L6`/`E6` frequency bands of the GPS, GLONASS, Galileo, BDS, QZSS, and NavIC GNSS constellations. In addition, the module supports SBAS augmentation systems (WASS, EGNOS, BDSBAS, MSAS, GAGAN, and SDCM), PPP services* (BDS PPP-B2b, QZSS CLAS, MADOCA-PPP, and Galileo HAS), and RTK corrections for precision navigation with a fast convergence time and reliable performance.
 
@@ -54,8 +54,8 @@ Repository Contents
 Product Variants
 ----------------
 
-* [GPS-26620](https://www.sparkfun.com/products/26620) - v1.0, Initial Release
-* [GPS-26916](https://www.sparkfun.com/products/26916) - SparkFun RTK Postcard *(w/ ESP32)*
+* [GPS-26620](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html) - v1.0, Initial Release
+* [GPS-26916](https://www.sparkfun.com/sparkfun-rtk-postcard.html) - SparkFun RTK Postcard *(w/ ESP32)*
 
 Version History
 ---------------

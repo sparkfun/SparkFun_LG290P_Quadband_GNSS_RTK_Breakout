@@ -4,7 +4,7 @@ icon: material/book-open-page-variant
 
 ## Product Resources
 
-- :sfe-logo: [Product Page](https://www.sparkfun.com/products/26620)
+- :sfe-logo: [Product Page](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
