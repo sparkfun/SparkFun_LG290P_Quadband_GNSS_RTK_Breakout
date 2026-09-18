@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe-logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -33,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -1725,9 +1725,7 @@
 <div class="tabbed-block">
 <p><article style="text-align: center;" markdown>
 <a href="../assets/board_files/dimensions.png" title="Click to enlarge"><img alt="Board Dimensions" src="../assets/board_files/dimensions.png" width="450" /></a>
-<figcaption markdown>
-Dimensions of the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Dimensions of the Quad-band GNSS RTK breakout board.</figcaption>
 </article></p>
 <details class="tip">
 <summary>Need more measurements?</summary>
@@ -1946,9 +1944,7 @@ Dimensions of the Quad-band GNSS RTK breakout board.
 <p>The LG290P modules are multi-band, multi-constellation GNSS receivers. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS module.</p>
 <p><figure markdown>
 <a href="https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="GNSS frequency bands" src="https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png" style="background-color:white" width="800"></a>
-<figcaption markdown>
-Frequency bands of the global navigation satellite systems. (Source: <a href="https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/" target="_blank" rel="noopener">Tallysman</a>)
-</figcaption>
+<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: <a href="https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/" target="_blank" rel="noopener">Tallysman</a>)</figcaption>
 </figure></p>
 <div class="grid" markdown>
 <div markdown>
@@ -1999,9 +1995,7 @@ Frequency bands of the global navigation satellite systems. (Source: <a href="ht
 <p>A <a href="https://en.wikipedia.org/wiki/Frequency_band" target="_blank" rel="noopener">frequency band</a> is a section of the <a href="https://en.wikipedia.org/wiki/Electromagnetic_spectrum" target="_blank" rel="noopener">electromagnetic spectrum</a>, usually denoted by the range of its upper and lower limits. In the <a href="https://en.wikipedia.org/wiki/Radio_spectrum" target="_blank" rel="noopener">radio spectrum</a>, these frequency bands are usually regulated by region, often through a government entity. This regulation prevents the interference of RF communication; and often includes major penalties for any interference with critical infrastructure systems and emergency services.</p>
 <p><figure markdown>
 <a href="https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="GNSS frequency bands" src="https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png" width="400"></a>
-<figcaption markdown>
-Frequency bands of the global navigation satellite systems. (Source: <a href="https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png" title="European Space Agency" target="_blank" rel="noopener">ESA</a>)
-</figcaption>
+<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: <a href="https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png" title="European Space Agency" target="_blank" rel="noopener">ESA</a>)</figcaption>
 </figure></p>
 <p>However, if the various GNSS constellations share similar frequency bands, then how do they avoid interfering with one another? Without going too far into detail, the image above helps illustrate some of the characteristics, specific to the frequency bands of each system. With these characteristics in mind, along with other factors, the chart can help users to visualize how multiple GNSS constellations might co-exist with each other.</p>
 <p>For more information, users may find these articles of interest:</p>
@@ -2107,15 +2101,13 @@ Frequency bands of the global navigation satellite systems. (Source: <a href="ht
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/uart_ports.png" title="Click to enlarge"><img alt="UART interface" src="../assets/img/hookup_guide/uart_ports.png" width="400" /></a>
-<figcaption markdown>
-The UART ports on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The UART ports on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
 <div class="admonition info">
 <p class="admonition-title">Default Configuration</p>
-<p>By default, the UART ports are configured with the following settings: </p>
+<p>By default, the UART ports are configured with the following settings:</p>
 <ul>
 <li>Logic Level: <strong>3.3V</strong></li>
 <li>Baudrate: <strong>460800bps</strong></li>
@@ -2180,9 +2172,7 @@ The UART ports on the Quad-band GNSS RTK breakout board.
 <p>By default, these UART ports are configured to transmit and receive <code>NMEA 0183</code> and/or <code>RTCM 3.x</code> messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (<code>PQTM</code>) for users to configure the LG290P that follows a data format similar to the <code>NMEA</code> protocol. The expected structure of these proprietary messages is shown below:</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/nmea_protocol.png" title="Click to enlarge"><img alt="NMEA data structure" src="../assets/img/hookup_guide/nmea_protocol.png" width="600" /></a>
-<figcaption markdown>
-The data structure of Quectel messages for the <code>NMEA</code> protocol.
-</figcaption>
+<figcaption markdown>The data structure of Quectel messages for the <code>NMEA</code> protocol.</figcaption>
 </figure></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="nmea" name="__tabbed_4" type="radio" /><input id="pqtm" name="__tabbed_4" type="radio" /><input id="rtcm" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="nmea">NMEA</label><label for="pqtm">PQTM</label><label for="rtcm">RTCM</label></div>
 <div class="tabbed-content">
@@ -2666,9 +2656,7 @@ The data structure of Quectel messages for the <code>NMEA</code> protocol.
 <p>From the module, the <a href="https://en.wikipedia.org/wiki/Pulse-per-second_signal" title="Pulse Per Second" target="_blank" rel="noopener">PPS</a> output signal is a 3.3V signal output that can be access through the SMA connector and/or the <code>PPS</code> <a href="https://en.wikipedia.org/wiki/Through-hole_technology" title="Plated Through Holes" target="_blank" rel="noopener">PTH</a> pin. The signal is also connected to the <code>PPS</code> LED, which can be used as a visual indicator for its operation.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/pps_signal.png" title="Click to enlarge"><img alt="I/O for PPS signal" src="../assets/img/hookup_guide/pps_signal.png" width="400" /></a>
-<figcaption markdown>
-The timing signal's outputs on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The timing signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 <details class="tip">
 <summary>Jumpers</summary>
@@ -2690,9 +2678,7 @@ The timing signal's outputs on the Quad-band GNSS RTK breakout board.
 <p>The <code>RTK</code> <a href="https://en.wikipedia.org/wiki/Through-hole_technology" title="Plated Through Holes" target="_blank" rel="noopener">PTH</a> pin operates as both the <code>RTK_STAT</code> status indicator for the RTK positioning and <code>ANT_ON</code> power control for the external LNA or active antenna power. The pin is also connected to the <code>RTK</code> LED, which can be used as a visual indicator for its operation.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/pin-rtk2.png" title="Click to enlarge"><img alt="I/O for RTK signal" src="../assets/img/hookup_guide/pin-rtk2.png" width="400" /></a>
-<figcaption markdown>
-The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The RTK signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="rtk_stat" name="__tabbed_5" type="radio" /><input id="ant_on" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="rtk_stat"><code>RTK_STAT</code></label><label for="ant_on"><code>ANT_ON</code></label></div>
 <div class="tabbed-content">
@@ -2725,9 +2711,7 @@ The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
 <p>The <code>RST</code> pin can be used to reset the LG290P module if it enters an abnormal state. To reset the GNSS module, the pin must be low for more than 100ms.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/reset.png" title="Click to enlarge"><img alt="Reset Pin" src="../assets/img/hookup_guide/reset.png" width="400" /></a>
-<figcaption markdown>
-The <code>RST</code> pin on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The <code>RST</code> pin on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -2845,9 +2829,7 @@ CAB-17240</a></p>
 <p>As documented in the <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial" target="_blank" rel="noopener">LoRaSerial product manual</a>, the pin connections between a host system <em>(i.e. Quad-band GNSS RTK breakout board)</em> and the LoRaSerial Kit radio is outlined in the image below.</p>
 <p><figure markdown>
 <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="Flow Control" src="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" width="400"></a>
-<figcaption markdown>
-The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3023,7 +3005,7 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 23, 2025 22:26:26 UTC"><span class="timeago" datetime="2025-09-23T22:26:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 23, 2025 22:26:26 UTC">2025-09-23</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 18, 2026 20:03:15 UTC"><span class="timeago" datetime="2026-09-18T20:03:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 18, 2026 20:03:15 UTC">2026-09-18</span>
   </span>
 
     
@@ -3134,7 +3116,7 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright 2024 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
+      Copyright 2026 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
     </div>
   
   
@@ -3321,7 +3303,7 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../js/timeago.min.js"></script>
       

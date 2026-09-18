@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe-logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -33,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -1662,9 +1662,7 @@
 <p>The expected structure of the data in the proprietary PQTM messages is shown below:</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/nmea_protocol.png" title="Click to enlarge"><img alt="NMEA data structure" src="../assets/img/hookup_guide/nmea_protocol.png" width="600" /></a>
-<figcaption markdown>
-The data structure of Quectel messages for the <code>NMEA</code> protocol.
-</figcaption>
+<figcaption markdown>The data structure of Quectel messages for the <code>NMEA</code> protocol.</figcaption>
 </figure></p>
 <p><code>&lt;Checksum&gt;</code>:</p>
 <ul>
@@ -1689,22 +1687,18 @@ The data structure of Quectel messages for the <code>NMEA</code> protocol.
 <p>There is a toolbar for the QConsole, which has a bunch of tools that users may find useful. This includes, a search function, scroll-lock button, pause/clear the message feed, etc. To open/close the toolbar inside the QConsole, <span class="keys"><kbd>right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option from the drop-down menu or utilize the keyboard shortcut: <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + <span class="keys"><kbd class="key-q">Q</kbd></span>.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/qgnss-toolbar.gif" title="Click to enlarge"><img alt="QConsole Toolbar" src="../assets/img/hookup_guide/qgnss-toolbar.gif" width="400" /></a>
-<figcaption markdown>
-<span class="keys"><kbd>Right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option, inside the QConsole.
-</figcaption>
+<figcaption markdown><span class="keys"><kbd>Right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option, inside the QConsole.</figcaption>
 </figure></p>
 </details>
 <details class="example">
 <summary>Example - <code>PQTMCFGUART</code> Message</summary>
-<p>As an example, try utilizing the <code>PQTMCFGUART</code> PQTM message. Enter <code>$PQTMCFGUART,R*</code> into the <strong>Data Input*</strong> field of the QConsole. DOn't forget to select the <code>NMEA</code> and <code>CRLF</code> options from <span class="keys"><kbd>Advance</kbd></span> settings menu. If entered and configured properly, the value <code>36</code> should pop up in the <strong>Checksum</strong> field of the QConsole; then, click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m2 21 21-9L2 3v7l15 2-15 2z"/></svg></span></kbd> button to send the message.</p>
+<p>As an example, try utilizing the <code>PQTMCFGUART</code> PQTM message. Enter <code>$PQTMCFGUART,R*</code> into the <strong>Data Input</strong>* field of the QConsole. DOn't forget to select the <code>NMEA</code> and <code>CRLF</code> options from <span class="keys"><kbd>Advance</kbd></span> settings menu. If entered and configured properly, the value <code>36</code> should pop up in the <strong>Checksum</strong> field of the QConsole; then, click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m2 21 21-9L2 3v7l15 2-15 2z"/></svg></span></kbd> button to send the message.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">$PQTMCFGUART</span>,R*
 </code></pre></div>
 <p>Once the message has been sent, keep a close watch of the messages in the console. It may help to click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5.5 4v2h7A1.5 1.5 0 0 1 14 7.5v6a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5v-6A1.5 1.5 0 0 1 3.499 6H4V4a4 4 0 0 1 7.371-2.154.75.75 0 0 1-1.264.808A2.5 2.5 0 0 0 5.5 4m-2 3.5v6h9v-6z"/></svg></span></kbd> button to disable auto-scrolling, when trying to locate the message response. Additionally, the response may not appear right away, it could be appended to the end of the next data packet, as shown in the image below.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/qgnss-pqtm_message.png" title="Click to enlarge"><img alt="PQTM demo" src="../assets/img/hookup_guide/qgnss-pqtm_message.png" width="400" /></a>
-<figcaption markdown>
-Example of utilizing the Quectel PQTM messages in the QConsole.
-</figcaption>
+<figcaption markdown>Example of utilizing the Quectel PQTM messages in the QConsole.</figcaption>
 </figure></p>
 </details>
 <h4 id="firmware-update">Firmware Update<a class="headerlink" href="#firmware-update" title="Permanent link"></a></h4>
@@ -1741,16 +1735,12 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
 <div class="admonition terminal">
 <p class="admonition-title">Installation Commands</p>
 <p>Depending on how Python is installed on the computer, one of the following commands should allow users to install the software.</p>
-<ul>
-<li>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
+<p>-
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
 </code></pre></div>
-</li>
-<li>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
-</code></pre></div>
-</li>
-</ul>
+-
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
+</code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">System Requirements</p>
 <p>This installation method requires an internet connection. Additionally, users may need administrative privileges <em>(or root access <code>sudo</code>)</em> for some installations.</p>
@@ -1870,7 +1860,7 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 23, 2025 22:26:26 UTC"><span class="timeago" datetime="2025-09-23T22:26:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 23, 2025 22:26:26 UTC">2025-09-23</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 18, 2026 20:03:15 UTC"><span class="timeago" datetime="2026-09-18T20:03:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 18, 2026 20:03:15 UTC">2026-09-18</span>
   </span>
 
     
@@ -1986,7 +1976,7 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright 2024 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
+      Copyright 2026 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
     </div>
   
   
@@ -2173,7 +2163,7 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../js/timeago.min.js"></script>
       

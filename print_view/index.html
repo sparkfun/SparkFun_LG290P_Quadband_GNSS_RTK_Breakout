@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe-logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -2018,9 +2018,7 @@ TOL-09327</a></p>
 <div class="tabbed-block">
 <p><article style="text-align: center;" markdown>
 <a href="../assets/board_files/dimensions.png" title="Click to enlarge"><img alt="Board Dimensions" src="../assets/board_files/dimensions.png" width="450" /></a>
-<figcaption markdown>
-Dimensions of the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Dimensions of the Quad-band GNSS RTK breakout board.</figcaption>
 </article></p>
 <details class="tip">
 <summary>Need more measurements?</summary>
@@ -2239,9 +2237,7 @@ Dimensions of the Quad-band GNSS RTK breakout board.
 <p>The LG290P modules are multi-band, multi-constellation GNSS receivers. Below, is a chart illustrating the frequency bands utilized by all the global navigation satellite systems; along with a list of the frequency bands and GNSS systems supported by the LG290P GNSS module.</p>
 <p><figure markdown>
 <a href="https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="GNSS frequency bands" src="https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png" style="background-color:white" width="800"></a>
-<figcaption markdown>
-Frequency bands of the global navigation satellite systems. (Source: <a href="https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/" target="_blank" rel="noopener">Tallysman</a>)
-</figcaption>
+<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: <a href="https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/" target="_blank" rel="noopener">Tallysman</a>)</figcaption>
 </figure></p>
 <div class="grid" markdown>
 <div markdown>
@@ -2292,9 +2288,7 @@ Frequency bands of the global navigation satellite systems. (Source: <a href="ht
 <p>A <a href="https://en.wikipedia.org/wiki/Frequency_band" target="_blank" rel="noopener">frequency band</a> is a section of the <a href="https://en.wikipedia.org/wiki/Electromagnetic_spectrum" target="_blank" rel="noopener">electromagnetic spectrum</a>, usually denoted by the range of its upper and lower limits. In the <a href="https://en.wikipedia.org/wiki/Radio_spectrum" target="_blank" rel="noopener">radio spectrum</a>, these frequency bands are usually regulated by region, often through a government entity. This regulation prevents the interference of RF communication; and often includes major penalties for any interference with critical infrastructure systems and emergency services.</p>
 <p><figure markdown>
 <a href="https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="GNSS frequency bands" src="https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png" width="400"></a>
-<figcaption markdown>
-Frequency bands of the global navigation satellite systems. (Source: <a href="https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png" title="European Space Agency" target="_blank" rel="noopener">ESA</a>)
-</figcaption>
+<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: <a href="https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png" title="European Space Agency" target="_blank" rel="noopener">ESA</a>)</figcaption>
 </figure></p>
 <p>However, if the various GNSS constellations share similar frequency bands, then how do they avoid interfering with one another? Without going too far into detail, the image above helps illustrate some of the characteristics, specific to the frequency bands of each system. With these characteristics in mind, along with other factors, the chart can help users to visualize how multiple GNSS constellations might co-exist with each other.</p>
 <p>For more information, users may find these articles of interest:</p>
@@ -2400,15 +2394,13 @@ Frequency bands of the global navigation satellite systems. (Source: <a href="ht
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/uart_ports.png" title="Click to enlarge"><img alt="UART interface" src="../assets/img/hookup_guide/uart_ports.png" width="400" /></a>
-<figcaption markdown>
-The UART ports on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The UART ports on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
 <div class="admonition info">
 <p class="admonition-title">Default Configuration</p>
-<p>By default, the UART ports are configured with the following settings: </p>
+<p>By default, the UART ports are configured with the following settings:</p>
 <ul>
 <li>Logic Level: <strong>3.3V</strong></li>
 <li>Baudrate: <strong>460800bps</strong></li>
@@ -2473,9 +2465,7 @@ The UART ports on the Quad-band GNSS RTK breakout board.
 <p>By default, these UART ports are configured to transmit and receive <code>NMEA 0183</code> and/or <code>RTCM 3.x</code> messages. These messages are generally used for transmitting PNT data; and providing or receiving RTK corrections, respectively. Quectel also implements a system of proprietary messages (<code>PQTM</code>) for users to configure the LG290P that follows a data format similar to the <code>NMEA</code> protocol. The expected structure of these proprietary messages is shown below:</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/nmea_protocol.png" title="Click to enlarge"><img alt="NMEA data structure" src="../assets/img/hookup_guide/nmea_protocol.png" width="600" /></a>
-<figcaption markdown>
-The data structure of Quectel messages for the <code>NMEA</code> protocol.
-</figcaption>
+<figcaption markdown>The data structure of Quectel messages for the <code>NMEA</code> protocol.</figcaption>
 </figure></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="7:3"><input checked="checked" id="nmea" name="__tabbed_7" type="radio" /><input id="pqtm" name="__tabbed_7" type="radio" /><input id="rtcm" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="nmea">NMEA</label><label for="pqtm">PQTM</label><label for="rtcm">RTCM</label></div>
 <div class="tabbed-content">
@@ -2959,9 +2949,7 @@ The data structure of Quectel messages for the <code>NMEA</code> protocol.
 <p>From the module, the <a href="https://en.wikipedia.org/wiki/Pulse-per-second_signal" title="Pulse Per Second" target="_blank" rel="noopener">PPS</a> output signal is a 3.3V signal output that can be access through the SMA connector and/or the <code>PPS</code> <a href="https://en.wikipedia.org/wiki/Through-hole_technology" title="Plated Through Holes" target="_blank" rel="noopener">PTH</a> pin. The signal is also connected to the <code>PPS</code> LED, which can be used as a visual indicator for its operation.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/pps_signal.png" title="Click to enlarge"><img alt="I/O for PPS signal" src="../assets/img/hookup_guide/pps_signal.png" width="400" /></a>
-<figcaption markdown>
-The timing signal's outputs on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The timing signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 <details class="tip">
 <summary>Jumpers</summary>
@@ -2983,9 +2971,7 @@ The timing signal's outputs on the Quad-band GNSS RTK breakout board.
 <p>The <code>RTK</code> <a href="https://en.wikipedia.org/wiki/Through-hole_technology" title="Plated Through Holes" target="_blank" rel="noopener">PTH</a> pin operates as both the <code>RTK_STAT</code> status indicator for the RTK positioning and <code>ANT_ON</code> power control for the external LNA or active antenna power. The pin is also connected to the <code>RTK</code> LED, which can be used as a visual indicator for its operation.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/pin-rtk2.png" title="Click to enlarge"><img alt="I/O for RTK signal" src="../assets/img/hookup_guide/pin-rtk2.png" width="400" /></a>
-<figcaption markdown>
-The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The RTK signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 <div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="rtk_stat" name="__tabbed_8" type="radio" /><input id="ant_on" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="rtk_stat"><code>RTK_STAT</code></label><label for="ant_on"><code>ANT_ON</code></label></div>
 <div class="tabbed-content">
@@ -3018,9 +3004,7 @@ The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
 <p>The <code>RST</code> pin can be used to reset the LG290P module if it enters an abnormal state. To reset the GNSS module, the pin must be low for more than 100ms.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/reset.png" title="Click to enlarge"><img alt="Reset Pin" src="../assets/img/hookup_guide/reset.png" width="400" /></a>
-<figcaption markdown>
-The <code>RST</code> pin on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The <code>RST</code> pin on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3138,9 +3122,7 @@ CAB-17240</a></p>
 <p>As documented in the <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial" target="_blank" rel="noopener">LoRaSerial product manual</a>, the pin connections between a host system <em>(i.e. Quad-band GNSS RTK breakout board)</em> and the LoRaSerial Kit radio is outlined in the image below.</p>
 <p><figure markdown>
 <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="Flow Control" src="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" width="400"></a>
-<figcaption markdown>
-The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3294,13 +3276,13 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
 </figcaption>
 </figure>
 <h2 id="jst-connector-uart3">JST Connector (<code>UART3</code>)<a class="headerlink" href="#jst-connector-uart3" title="Permanent link"></a></h2>
-<p>The JST connector on the Quad-band GNSS RTK board, breaks out the <code>UART3</code> port of the LG290P GNSS module. In most circumstances, users will utilize the JST connector to interface with one of our radios to transmit or receive RTK correction data.</p>
+<p>The JST connector on the Quad-band GNSS RTK board, breaks out the <code>UART3</code> port of the LG290P GNSS module. In certain circumstances, users may need to utilize the JST connector to transmit or receive RTK correction data with one of our radios.</p>
 <div class="grid">
 <div>
 <figure>
 <p><a href="../assets/img/hookup_guide/assembly-rtk-radio_setup.jpg" title="Click to enlarge"><img alt="Device connected to the JST connector" src="../assets/img/hookup_guide/assembly-rtk-radio_setup.jpg" width="400" /></a></p>
 <figcaption>
-<p>The <a href="https://www.sparkfun.com/products/19032" target="_blank" rel="noopener">Telemetry Radio v3</a> connected to the Quad-band GNSS RTK breakout.</p>
+<p>The <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">Telemetry Radio v3</a> connected to the Quad-band GNSS RTK breakout.</p>
 </figcaption>
 </figure>
 </div>
@@ -3348,7 +3330,7 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
 <p>The default baud rate of the UART ports on the LG290P is <strong>460800bps</strong>.</p>
 </div>
 <h3 id="radio-transceivers">Radio Transceivers<a class="headerlink" href="#radio-transceivers" title="Permanent link"></a></h3>
-<p class="annotate">We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a>, users should <a href="../hardware_overview/#jumpers">modify the <code>VSEL</code> jumper</a> (1) on the back of the board to enable a 5V output on the <code>VCC</code> pin. Below, is a table summarizing the pin connections of the radios.</p>
+<p class="annotate">We have designed the locking JST connector to be plug-n-play with the following devices and cables. However, for the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a>, users should <a href="../hardware_overview/#jumpers">modify the <code>VSEL</code> jumper</a> (1) on the back of the board to enable a 5V output on the <code>VCC</code> pin. Below, is a table summarizing the pin connections of the radios.</p>
 <ol>
 <li>While the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a> may function with a <strong>3.3V</strong> input, their specifications stipulate that a <strong>5V</strong> power supply be provided.</li>
 </ol>
@@ -3412,9 +3394,7 @@ The <code>COM</code> ports on the Quad-band GNSS RTK breakout board.
 <p>As documented in the <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial" target="_blank" rel="noopener">LoRaSerial product manual</a>, the pin connections between a host system <em>(i.e. Quad-band GNSS RTK breakout board)</em> and the LoRaSerial radio is outlined in the image below.</p>
 <p><figure markdown>
 <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="UART w/ Flow Control" src="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" width="400"></a>
-<figcaption markdown>
-The pin connections between a radio and the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The pin connections between a radio and the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
@@ -3511,9 +3491,7 @@ CAB-17854</a></p>
 <p>When selecting headers, be sure you are aware of the functionality you require.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-soldering-headers.jpg" title="Click to enlarge"><img alt="Soldering headers" src="../assets/img/hookup_guide/assembly-soldering-headers.jpg" width="400" /></a>
-<figcaption markdown>
-Soldering headers to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering headers to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3526,9 +3504,7 @@ Soldering headers to the Quad-band GNSS RTK breakout board.
 <p>For a more permanent connection, users can solder wires directly to the board.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-soldering-wires.jpg" title="Click to enlarge"><img alt="Soldering wires" src="../assets/img/hookup_guide/assembly-soldering-wires.jpg" width="400" /></a>
-<figcaption markdown>
-Soldering wires to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering wires to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3566,9 +3542,7 @@ Soldering wires to the Quad-band GNSS RTK breakout board.
 <p>When soldering a header to the back of the board, be aware that you'll loose access to the jumper in that area.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf_header.png" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-bluesmirf_header.png" width="400" /></a>
-<figcaption markdown>
-Female header covering the <code>BT-VCC</code> jumper.
-</figcaption>
+<figcaption markdown>Female header covering the <code>BT-VCC</code> jumper.</figcaption>
 </figure></p>
 </details>
 </div>
@@ -3589,17 +3563,13 @@ Female header covering the <code>BT-VCC</code> jumper.
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf-top.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-bluesmirf-top.jpg" width="400" /></a>
-<figcaption markdown>
-Female header pins soldered to the top of the board.
-</figcaption>
+<figcaption markdown>Female header pins soldered to the top of the board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - bottom" src="../assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg" width="400" /></a>
-<figcaption markdown>
-Female header pins soldered to the back of the board.
-</figcaption>
+<figcaption markdown>Female header pins soldered to the back of the board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3608,9 +3578,7 @@ Female header pins soldered to the back of the board.
 <p>Connecting a UART adapter <em>(<a href="https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html" target="_blank" rel="noopener">Serial Basic</a>)</em> to a male header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to configure the LG290P, when the USB connection is unavailable.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-uart_adapter.jpg" title="Click to enlarge"><img alt="Serial Basic" src="../assets/img/hookup_guide/assembly-uart_adapter.jpg" width="400" /></a>
-<figcaption markdown>
-The adapter connected to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The adapter connected to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div class="tabbed-block">
@@ -3621,9 +3589,7 @@ The adapter connected to the Quad-band GNSS RTK breakout board.
 <p>Connecting an <a href="https://www.sparkfun.com/sparkfun-openlog.html" target="_blank" rel="noopener">OpenLog</a> to the Quad-band GNSS RTK breakout board. This will allow users to automatically log PNT data from the LG290P.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-openlog_bottom.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-openlog_bottom.jpg" width="400" /></a>
-<figcaption markdown>
-An <a href="https://www.sparkfun.com/products/13712" target="_blank" rel="noopener">OpenLog</a> connected to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>An <a href="https://www.sparkfun.com/sparkfun-openlog.html" target="_blank" rel="noopener">OpenLog</a> connected to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -3765,9 +3731,7 @@ WRL-00593</a></p>
 <p>The expected structure of the data in the proprietary PQTM messages is shown below:</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/nmea_protocol.png" title="Click to enlarge"><img alt="NMEA data structure" src="../assets/img/hookup_guide/nmea_protocol.png" width="600" /></a>
-<figcaption markdown>
-The data structure of Quectel messages for the <code>NMEA</code> protocol.
-</figcaption>
+<figcaption markdown>The data structure of Quectel messages for the <code>NMEA</code> protocol.</figcaption>
 </figure></p>
 <p><code>&lt;Checksum&gt;</code>:</p>
 <ul>
@@ -3792,22 +3756,18 @@ The data structure of Quectel messages for the <code>NMEA</code> protocol.
 <p>There is a toolbar for the QConsole, which has a bunch of tools that users may find useful. This includes, a search function, scroll-lock button, pause/clear the message feed, etc. To open/close the toolbar inside the QConsole, <span class="keys"><kbd>right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option from the drop-down menu or utilize the keyboard shortcut: <span class="keys"><kbd class="key-control">Ctrl</kbd></span> + <span class="keys"><kbd class="key-q">Q</kbd></span>.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/qgnss-toolbar.gif" title="Click to enlarge"><img alt="QConsole Toolbar" src="../assets/img/hookup_guide/qgnss-toolbar.gif" width="400" /></a>
-<figcaption markdown>
-<span class="keys"><kbd>Right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option, inside the QConsole.
-</figcaption>
+<figcaption markdown><span class="keys"><kbd>Right-click</kbd></span> on the mouse and select the <code>Show Tool</code> option, inside the QConsole.</figcaption>
 </figure></p>
 </details>
 <details class="example">
 <summary>Example - <code>PQTMCFGUART</code> Message</summary>
-<p>As an example, try utilizing the <code>PQTMCFGUART</code> PQTM message. Enter <code>$PQTMCFGUART,R*</code> into the <strong>Data Input*</strong> field of the QConsole. DOn't forget to select the <code>NMEA</code> and <code>CRLF</code> options from <span class="keys"><kbd>Advance</kbd></span> settings menu. If entered and configured properly, the value <code>36</code> should pop up in the <strong>Checksum</strong> field of the QConsole; then, click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m2 21 21-9L2 3v7l15 2-15 2z"/></svg></span></kbd> button to send the message.</p>
+<p>As an example, try utilizing the <code>PQTMCFGUART</code> PQTM message. Enter <code>$PQTMCFGUART,R*</code> into the <strong>Data Input</strong>* field of the QConsole. DOn't forget to select the <code>NMEA</code> and <code>CRLF</code> options from <span class="keys"><kbd>Advance</kbd></span> settings menu. If entered and configured properly, the value <code>36</code> should pop up in the <strong>Checksum</strong> field of the QConsole; then, click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m2 21 21-9L2 3v7l15 2-15 2z"/></svg></span></kbd> button to send the message.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">$PQTMCFGUART</span>,R*
 </code></pre></div>
 <p>Once the message has been sent, keep a close watch of the messages in the console. It may help to click on the <kbd><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5.5 4v2h7A1.5 1.5 0 0 1 14 7.5v6a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5v-6A1.5 1.5 0 0 1 3.499 6H4V4a4 4 0 0 1 7.371-2.154.75.75 0 0 1-1.264.808A2.5 2.5 0 0 0 5.5 4m-2 3.5v6h9v-6z"/></svg></span></kbd> button to disable auto-scrolling, when trying to locate the message response. Additionally, the response may not appear right away, it could be appended to the end of the next data packet, as shown in the image below.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/qgnss-pqtm_message.png" title="Click to enlarge"><img alt="PQTM demo" src="../assets/img/hookup_guide/qgnss-pqtm_message.png" width="400" /></a>
-<figcaption markdown>
-Example of utilizing the Quectel PQTM messages in the QConsole.
-</figcaption>
+<figcaption markdown>Example of utilizing the Quectel PQTM messages in the QConsole.</figcaption>
 </figure></p>
 </details>
 <h4 id="firmware-update">Firmware Update<a class="headerlink" href="#firmware-update" title="Permanent link"></a></h4>
@@ -3844,16 +3804,12 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
 <div class="admonition terminal">
 <p class="admonition-title">Installation Commands</p>
 <p>Depending on how Python is installed on the computer, one of the following commands should allow users to install the software.</p>
-<ul>
-<li>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
+<p>-
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
 </code></pre></div>
-</li>
-<li>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
-</code></pre></div>
-</li>
-</ul>
+-
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pygpsclient
+</code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">System Requirements</p>
 <p>This installation method requires an internet connection. Additionally, users may need administrative privileges <em>(or root access <code>sudo</code>)</em> for some installations.</p>
@@ -4000,12 +3956,14 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
 <p><article style="text-align: center;" markdown>
 <a class="md-button md-button--primary" href="https://www.sparkfun.com/technical_assistance" target="_blank" rel="noopener">SparkFun Technical Assistance Page</a>
 </article></p>
-<p>If you can't find what you need there, the <a href="https://forum.sparkfun.com/viewforum.php?f=116" target="_blank" rel="noopener">SparkFun GNSS Forum</a> is a great place to ask questions.</p>
+<p>If you can't find what you need there, the <a href="https://community.sparkfun.com/c/global-positioning-system-gps/96" target="_blank" rel="noopener">SparkFun GNSS Forum</a> is a great place to ask questions.</p>
 <div class="admonition info">
 <p class="admonition-title">Account Registration Required</p>
-<p>If this is your first visit to our forum, you'll need to create a <a href="https://forum.sparkfun.com/ucp.php?mode=register" target="_blank" rel="noopener">Forum Account</a> to post questions.</p>
+<p>If this is your first visit to our forum, you'll need to create a <a href="https://community.sparkfun.com/signup" target="_blank" rel="noopener">Forum Account</a> to post questions.</p>
 </div>
 </div>
+<h3 id="antenna-issues">Antenna Issues<a class="headerlink" href="#antenna-issues" title="Permanent link"></a></h3>
+<p>At a minimum, we recommend utilizing an active L1/L2/L5 antenna with the LG290P. Some customer have reported that the LG290P remains in an <code>RTK Float</code> status, when utilizing GNSS antennas that don't meet these specifications. However, users just need to mask the signals and satellites that are available to the GNSS receiver.</p>
 <!-- QR Code for Hookup Guide (Displayed when printed) -->
 <article style="text-align: center;">
 <p><img alt="QR code to the hookup guide" class="qr" src="../assets/img/qr_code/hookup_guide.png" /></p>
@@ -4140,7 +4098,7 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright 2024 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
+      Copyright 2026 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
     </div>
   
   
@@ -4327,7 +4285,7 @@ Example of utilizing the Quectel PQTM messages in the QConsole.
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../js/timeago.min.js"></script>
       

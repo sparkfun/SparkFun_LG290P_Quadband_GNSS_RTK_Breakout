@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/img/sfe-logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -33,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -1437,13 +1437,13 @@
 </figcaption>
 </figure>
 <h2 id="jst-connector-uart3">JST Connector (<code>UART3</code>)<a class="headerlink" href="#jst-connector-uart3" title="Permanent link"></a></h2>
-<p>The JST connector on the Quad-band GNSS RTK board, breaks out the <code>UART3</code> port of the LG290P GNSS module. In most circumstances, users will utilize the JST connector to interface with one of our radios to transmit or receive RTK correction data.</p>
+<p>The JST connector on the Quad-band GNSS RTK board, breaks out the <code>UART3</code> port of the LG290P GNSS module. In certain circumstances, users may need to utilize the JST connector to transmit or receive RTK correction data with one of our radios.</p>
 <div class="grid">
 <div>
 <figure>
 <p><a href="../assets/img/hookup_guide/assembly-rtk-radio_setup.jpg" title="Click to enlarge"><img alt="Device connected to the JST connector" src="../assets/img/hookup_guide/assembly-rtk-radio_setup.jpg" width="400" /></a></p>
 <figcaption>
-<p>The <a href="https://www.sparkfun.com/products/19032" target="_blank" rel="noopener">Telemetry Radio v3</a> connected to the Quad-band GNSS RTK breakout.</p>
+<p>The <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">Telemetry Radio v3</a> connected to the Quad-band GNSS RTK breakout.</p>
 </figcaption>
 </figure>
 </div>
@@ -1491,7 +1491,7 @@
 <p>The default baud rate of the UART ports on the LG290P is <strong>460800bps</strong>.</p>
 </div>
 <h3 id="radio-transceivers">Radio Transceivers<a class="headerlink" href="#radio-transceivers" title="Permanent link"></a></h3>
-<p class="annotate">We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a>, users should <a href="../hardware_overview/#jumpers">modify the <code>VSEL</code> jumper</a> (1) on the back of the board to enable a 5V output on the <code>VCC</code> pin. Below, is a table summarizing the pin connections of the radios.</p>
+<p class="annotate">We have designed the locking JST connector to be plug-n-play with the following devices and cables. However, for the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a>, users should <a href="../hardware_overview/#jumpers">modify the <code>VSEL</code> jumper</a> (1) on the back of the board to enable a 5V output on the <code>VCC</code> pin. Below, is a table summarizing the pin connections of the radios.</p>
 <ol>
 <li>While the <a href="https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html" target="_blank" rel="noopener">SiK Telemetry Radio v3</a> may function with a <strong>3.3V</strong> input, their specifications stipulate that a <strong>5V</strong> power supply be provided.</li>
 </ol>
@@ -1555,9 +1555,7 @@
 <p>As documented in the <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial" target="_blank" rel="noopener">LoRaSerial product manual</a>, the pin connections between a host system <em>(i.e. Quad-band GNSS RTK breakout board)</em> and the LoRaSerial radio is outlined in the image below.</p>
 <p><figure markdown>
 <a href="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" title="Click to enlarge" target="_blank" rel="noopener"><img alt="UART w/ Flow Control" src="https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png" width="400"></a>
-<figcaption markdown>
-The pin connections between a radio and the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The pin connections between a radio and the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
@@ -1654,9 +1652,7 @@ CAB-17854</a></p>
 <p>When selecting headers, be sure you are aware of the functionality you require.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-soldering-headers.jpg" title="Click to enlarge"><img alt="Soldering headers" src="../assets/img/hookup_guide/assembly-soldering-headers.jpg" width="400" /></a>
-<figcaption markdown>
-Soldering headers to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering headers to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -1669,9 +1665,7 @@ Soldering headers to the Quad-band GNSS RTK breakout board.
 <p>For a more permanent connection, users can solder wires directly to the board.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-soldering-wires.jpg" title="Click to enlarge"><img alt="Soldering wires" src="../assets/img/hookup_guide/assembly-soldering-wires.jpg" width="400" /></a>
-<figcaption markdown>
-Soldering wires to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering wires to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -1709,9 +1703,7 @@ Soldering wires to the Quad-band GNSS RTK breakout board.
 <p>When soldering a header to the back of the board, be aware that you'll loose access to the jumper in that area.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf_header.png" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-bluesmirf_header.png" width="400" /></a>
-<figcaption markdown>
-Female header covering the <code>BT-VCC</code> jumper.
-</figcaption>
+<figcaption markdown>Female header covering the <code>BT-VCC</code> jumper.</figcaption>
 </figure></p>
 </details>
 </div>
@@ -1732,17 +1724,13 @@ Female header covering the <code>BT-VCC</code> jumper.
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf-top.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-bluesmirf-top.jpg" width="400" /></a>
-<figcaption markdown>
-Female header pins soldered to the top of the board.
-</figcaption>
+<figcaption markdown>Female header pins soldered to the top of the board.</figcaption>
 </figure></p>
 </div>
 <div markdown>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - bottom" src="../assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg" width="400" /></a>
-<figcaption markdown>
-Female header pins soldered to the back of the board.
-</figcaption>
+<figcaption markdown>Female header pins soldered to the back of the board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -1751,9 +1739,7 @@ Female header pins soldered to the back of the board.
 <p>Connecting a UART adapter <em>(<a href="https://www.sparkfun.com/sparkfun-serial-basic-breakout-ch340c-and-usb-c.html" target="_blank" rel="noopener">Serial Basic</a>)</em> to a male header that was soldered to the Quad-band GNSS RTK breakout board. This will allow users to configure the LG290P, when the USB connection is unavailable.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-uart_adapter.jpg" title="Click to enlarge"><img alt="Serial Basic" src="../assets/img/hookup_guide/assembly-uart_adapter.jpg" width="400" /></a>
-<figcaption markdown>
-The adapter connected to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The adapter connected to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 <div class="tabbed-block">
@@ -1764,9 +1750,7 @@ The adapter connected to the Quad-band GNSS RTK breakout board.
 <p>Connecting an <a href="https://www.sparkfun.com/sparkfun-openlog.html" target="_blank" rel="noopener">OpenLog</a> to the Quad-band GNSS RTK breakout board. This will allow users to automatically log PNT data from the LG290P.</p>
 <p><figure markdown>
 <a href="../assets/img/hookup_guide/assembly-openlog_bottom.jpg" title="Click to enlarge"><img alt="BlueSMiRF transceiver - top" src="../assets/img/hookup_guide/assembly-openlog_bottom.jpg" width="400" /></a>
-<figcaption markdown>
-An <a href="https://www.sparkfun.com/products/13712" target="_blank" rel="noopener">OpenLog</a> connected to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>An <a href="https://www.sparkfun.com/sparkfun-openlog.html" target="_blank" rel="noopener">OpenLog</a> connected to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure></p>
 </div>
 </div>
@@ -1826,7 +1810,7 @@ WRL-00593</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 23, 2025 22:26:26 UTC"><span class="timeago" datetime="2025-09-23T22:26:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 23, 2025 22:26:26 UTC">2025-09-23</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="September 18, 2026 20:03:15 UTC"><span class="timeago" datetime="2026-09-18T20:03:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="September 18, 2026 20:03:15 UTC">2026-09-18</span>
   </span>
 
     
@@ -1937,7 +1921,7 @@ WRL-00593</a></p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright 2024 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
+      Copyright 2026 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;</a><br> <a href="https://goo.gl/maps/vkstCpQZW6jZMjzYA" target="_blank" rel="noopener">6333 Dry Creek Parkway, Niwot, Colorado 80503</a>
     </div>
   
   
@@ -2124,7 +2108,7 @@ WRL-00593</a></p>
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "content.action.edit", "content.tooltips", "navigation.footer", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.instant.preview", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../js/timeago.min.js"></script>
       
