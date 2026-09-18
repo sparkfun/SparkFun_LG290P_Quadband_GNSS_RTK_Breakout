@@ -87,7 +87,7 @@ Below, are excerpts for a few of the PQTM messages from the [GNSS Protocol Speci
 
 
 	??? example
-		Restore all the settings of the LG290P to their factory defaults 
+		Restore all the settings of the LG290P to their factory defaults
 		```
 		$PQTMRESTOREPAR*13
 		```

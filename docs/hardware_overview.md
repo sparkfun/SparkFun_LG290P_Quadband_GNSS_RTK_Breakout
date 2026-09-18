@@ -87,7 +87,7 @@ Once the USB driver is installed:
 
 		---
 
-		[:octicons-download-16:{ .heart } Download Page for <code>CH343SER.EXE</code>](https://www.wch-ic.com/downloads/CH343SER_EXE.html){ .md-button .md-button--primary target="blank" }
+		[:octicons-download-16:{ .heart } Download Page for `CH343SER.EXE`](https://www.wch-ic.com/downloads/CH343SER_EXE.html){ .md-button .md-button--primary target="blank" }
 
 
 	-   :material-apple: **MacOS**
@@ -432,7 +432,7 @@ The LG290P GNSS features several peripheral interfaces and I/O pins. Some of the
 	<div markdown>
 
 	!!! info "Default Configuration"
-		By default, the UART ports are configured with the following settings: 
+		By default, the UART ports are configured with the following settings:
 
 		- Logic Level: **3.3V**
 		- Baudrate: **460800bps**

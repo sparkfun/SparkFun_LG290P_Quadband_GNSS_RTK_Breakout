@@ -211,11 +211,11 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 !!! terminal "Installation Commands"
 	Depending on how Python is installed on the computer, one of the following commands should allow users to install the software.
 
-	- 
+	-
 		``` bash
 		python3 -m pip install --upgrade pygpsclient
 		```
-	- 
+	-
 		``` bash
 		pip install --upgrade pygpsclient
 		```

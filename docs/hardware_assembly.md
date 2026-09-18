@@ -35,7 +35,7 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 
 
 ## JST Connector (`UART3`)
-The JST connector on the Quad-band GNSS RTK board, breaks out the `UART3` port of the LG290P GNSS module. In most circumstances, users will utilize the JST connector to interface with one of our radios to transmit or receive RTK correction data.
+The JST connector on the Quad-band GNSS RTK board, breaks out the `UART3` port of the LG290P GNSS module. In certain circumstances, users may need to utilize the JST connector to transmit or receive RTK correction data with one of our radios.
 
 
 <div class="grid" markdown>
@@ -100,7 +100,7 @@ When connecting the Quad-band GNSS RTK breakout board to other products, users s
 
 
 ### Radio Transceivers
-We have designed the locking JST connector to be plun-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) (1) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
+We have designed the locking JST connector to be plug-n-play with the following devices and cables. However, for the [SiK Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html), users should [modify the `VSEL` jumper](../hardware_overview/#jumpers) (1) on the back of the board to enable a 5V output on the `VCC` pin. Below, is a table summarizing the pin connections of the radios.
 { .annotate }
 
 1. While the [SiK Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) may function with a **3.3V** input, their specifications stipulate that a **5V** power supply be provided.
