@@ -36,9 +36,7 @@ The SparkFun LG290P Quadband GNSS RTK breakout board's dimensions, pin layout, a
 	=== "Dimensions"
 		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="450" }](./assets/board_files/dimensions.png "Click to enlarge")
-		<figcaption markdown>
-		Dimensions of the Quad-band GNSS RTK breakout board.
-		</figcaption>
+		<figcaption markdown>Dimensions of the Quad-band GNSS RTK breakout board.</figcaption>
 		</article>
 
 
@@ -70,9 +68,7 @@ The USB connector is provided to power and communicate with the LG290P GNSS rece
 
 <figure markdown>
 [![USB-C Connector](./assets/img/hookup_guide/usb_connector.png){ width="400" }](./assets/img/hookup_guide/usb_connector.png "Click to enlarge")
-<figcaption markdown>
-USB-C connector on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>USB-C connector on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 ### CH342 Dual UART Converter
@@ -112,9 +108,7 @@ The Quad-band GNSS RTK breakout board only requires **3.3V** to power the board'
 
 <figure markdown>
 [![Power connections](./assets/img/hookup_guide/power_connections.png){ width="400" }](./assets/img/hookup_guide/power_connections.png "Click to enlarge")
-<figcaption markdown>
-Quad-band GNSS RTK breakout board's power connections.
-</figcaption>
+<figcaption markdown>Quad-band GNSS RTK breakout board's power connections.</figcaption>
 </figure>
 
 Below, is a general summary of the power circuitry for the board:
@@ -175,9 +169,7 @@ The centerpiece of the Quad-band GNSS RTK breakout board, is the [LG290P GNSS mo
 
 <figure markdown>
 [![LG290P GNSS module](./assets/img/hookup_guide/LG290P.png){ width="300" }](./assets/img/hookup_guide/LG290P.png "Click to enlarge")
-<figcaption markdown>
-The LG290P module on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The LG290P module on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -262,9 +254,7 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![GNSS frequency bands](https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png){ width="800" style="background-color:white"}](https://www.tallysman.com/app/uploads/2021/07/Tallysman-GNSS-Frequencies-v8.0_Chart-1-1024x425.png "Click to enlarge")
-	<figcaption markdown>
-	Frequency bands of the global navigation satellite systems. (Source: [Tallysman](https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/))
-	</figcaption>
+	<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: [Tallysman](https://www.tallysman.com/gnss-constellations-radio-frequencies-and-signals/))</figcaption>
 	</figure>
 
 
@@ -330,9 +320,7 @@ The LG290P module on the Quad-band GNSS RTK breakout board.
 
 		<figure markdown>
 		[![GNSS frequency bands](https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png){ width="400" }](https://gssc.esa.int/navipedia/images/c/cf/GNSS_All_Signals.png "Click to enlarge")
-		<figcaption markdown>
-		Frequency bands of the global navigation satellite systems. (Source: [ESA](https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png "European Space Agency"))
-		</figcaption>
+		<figcaption markdown>Frequency bands of the global navigation satellite systems. (Source: [ESA](https://gssc.esa.int/navipedia/index.php?title=File:GNSS_All_Signals.png "European Space Agency"))</figcaption>
 		</figure>
 
 		However, if the various GNSS constellations share similar frequency bands, then how do they avoid interfering with one another? Without going too far into detail, the image above helps illustrate some of the characteristics, specific to the frequency bands of each system. With these characteristics in mind, along with other factors, the chart can help users to visualize how multiple GNSS constellations might co-exist with each other.
@@ -400,9 +388,7 @@ The LG290P GNSS features several peripheral interfaces and I/O pins. Some of the
 
 <figure markdown>
 [![Peripherals interfaces](./assets/img/hookup_guide/peripherals1.png){ width="400" }](./assets/img/hookup_guide/peripherals1.png "Click to enlarge")
-<figcaption markdown>
-The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -438,9 +424,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![UART interface](./assets/img/hookup_guide/uart_ports.png){ width="400" }](./assets/img/hookup_guide/uart_ports.png "Click to enlarge")
-	<figcaption markdown>
-	The UART ports on the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The UART ports on the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 	</div>
@@ -513,9 +497,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 		<figure markdown>
 		[![NMEA data structure](./assets/img/hookup_guide/nmea_protocol.png){ width="600" }](./assets/img/hookup_guide/nmea_protocol.png "Click to enlarge")
-		<figcaption markdown>
-		The data structure of Quectel messages for the `NMEA` protocol.
-		</figcaption>
+		<figcaption markdown>The data structure of Quectel messages for the `NMEA` protocol.</figcaption>
 		</figure>
 
 		=== "NMEA"
@@ -644,9 +626,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![I/O for PPS signal](./assets/img/hookup_guide/pps_signal.png){ width="400" }](./assets/img/hookup_guide/pps_signal.png "Click to enlarge")
-	<figcaption markdown>
-	The timing signal's outputs on the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The timing signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 	??? tip "Jumpers"
@@ -666,9 +646,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![I/O for RTK signal](./assets/img/hookup_guide/pin-rtk2.png){ width="400" }](./assets/img/hookup_guide/pin-rtk2.png "Click to enlarge")
-	<figcaption markdown>
-	The RTK signal's outputs on the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The RTK signal's outputs on the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 
@@ -698,9 +676,7 @@ The peripheral interfaces and I/O pins on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![Reset Pin](./assets/img/hookup_guide/reset.png){ width="400" }](./assets/img/hookup_guide/reset.png "Click to enlarge")
-	<figcaption markdown>
-	The `RST` pin on the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The `RST` pin on the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 <!-- === "Event" -->
@@ -718,9 +694,7 @@ While there are two SMD pads for SMA connectors, only the antenna's SMA connecto
 
 <figure markdown>
 [![SMA Connector](./assets/img/hookup_guide/sma-antenna.png){ width="400" }](./assets/img/hookup_guide/sma-antenna.png "Click to enlarge")
-<figcaption markdown>
-The SMA connector for an external GNSS antenna on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The SMA connector for an external GNSS antenna on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -730,9 +704,7 @@ The SMA connector for an external GNSS antenna on the Quad-band GNSS RTK breakou
 
 <figure markdown>
 [![SMD Pads](./assets/img/hookup_guide/sma-pps_smd.png){ width="400" }](./assets/img/hookup_guide/sma-pps_smd.png "Click to enlarge")
-<figcaption markdown>
-The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The SMD pads to add an SMA connector for the **[PPS output](#pps-output)** from the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -765,9 +737,7 @@ The Quad-band GNSS RTK breakout features a 4-pin [JST GH connector](./assets/com
 
 <figure markdown>
 [![JST connector](./assets/img/hookup_guide/jst-connector.png){ width="400" }](./assets/img/hookup_guide/jst_connector.png "Click to enlarge")
-<figcaption markdown>
-The JST connector on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The JST connector on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 
@@ -845,9 +815,7 @@ The JST connector on the Quad-band GNSS RTK breakout board.
 
 	<figure markdown>
 	[![Flow Control](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png){ width="400" }](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png "Click to enlarge")
-	<figcaption markdown>
-	The `COM` ports on the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The `COM` ports on the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 	</div>
@@ -861,9 +829,7 @@ The Quad-band GNSS RTK breakout features a 6-pin BlueSMiRF [PTH](https://en.wiki
 
 <figure markdown>
 [![BlueSMiRF header](./assets/img/hookup_guide/header-bluesmirf.png){ width="400" }](./assets/img/hookup_guide/header-bluesmirf.png "Click to enlarge")
-<figcaption markdown>
-The 6-pin BlueSMiRF PTH header on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The 6-pin BlueSMiRF PTH header on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 
@@ -919,9 +885,7 @@ There are three status LEDs on the Quad-band GNSS RTK breakout board:
 
 <figure markdown>
 [![Status LEDs](./assets/img/hookup_guide/LEDs.png){ width="400" }](./assets/img/hookup_guide/LEDs.png "Click to enlarge")
-<figcaption markdown>
-The status LED indicators on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The status LED indicators on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -965,9 +929,7 @@ There are seven jumpers on the back of the board that can be used to easily modi
 
 <figure markdown>
 [![Jumpers](./assets/img/hookup_guide/jumpers.png){ width="400" }](./assets/img/hookup_guide/jumpers.png "Click to enlarge")
-<figcaption markdown>
-The jumpers on the back of the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>The jumpers on the back of the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 

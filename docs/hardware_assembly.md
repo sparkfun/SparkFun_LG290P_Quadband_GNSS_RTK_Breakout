@@ -7,9 +7,7 @@ The USB connection can be utilized for serial communication and configuring the 
 
 <figure markdown>
 [![Quad-band GNSS RTK breakout board USB connection](./assets/img/hookup_guide/assembly-usb.jpg){ width="400" }](./assets/img/hookup_guide/assembly-usb.jpg "Click to enlarge")
-<figcaption markdown>
-The Quad-band GNSS RTK breakout board with USB-C cable being attached.
-</figcaption>
+<figcaption markdown>The Quad-band GNSS RTK breakout board with USB-C cable being attached.</figcaption>
 </figure>
 
 
@@ -31,9 +29,7 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 
 <figure markdown>
 [![Quad-band GNSS RTK breakout board antenna connector](./assets/img/hookup_guide/assembly-gnss_antenna.jpg){ width="400" }](./assets/img/hookup_guide/assembly-gnss_antenna.jpg "Click to enlarge")
-<figcaption markdown>
-A GNSS antenna attached to the SMA connector on the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>A GNSS antenna attached to the SMA connector on the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 
@@ -48,9 +44,7 @@ The JST connector on the Quad-band GNSS RTK board, breaks out the `UART3` port o
 
 <figure markdown>
 [![Device connected to the JST connector](./assets/img/hookup_guide/assembly-rtk-radio_setup.jpg){ width="400" }](./assets/img/hookup_guide/assembly-rtk-radio_setup.jpg "Click to enlarge")
-<figcaption markdown>
-The [Telemetry Radio v3](https://www.sparkfun.com/products/19032) connected to the Quad-band GNSS RTK breakout.
-</figcaption>
+<figcaption markdown>The [Telemetry Radio v3](https://www.sparkfun.com/sik-telemetry-radio-v3-915mhz-100mw.html) connected to the Quad-band GNSS RTK breakout.</figcaption>
 </figure>
 
 </div>
@@ -177,9 +171,7 @@ We have designed the locking JST connector to be plun-n-play with the following 
 
 	<figure markdown>
 	[![UART w/ Flow Control](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png){ width="400" }](https://docs.sparkfun.com/SparkFun_LoRaSerial/img/SAMD21%20Flow%20control.png "Click to enlarge")
-	<figcaption markdown>
-	The pin connections between a radio and the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The pin connections between a radio and the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 	</div>
@@ -293,9 +285,7 @@ The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through 
 
 	<figure markdown>
 	[![Soldering headers](./assets/img/hookup_guide/assembly-soldering-headers.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-headers.jpg "Click to enlarge")
-	<figcaption markdown>
-	Soldering headers to the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>Soldering headers to the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 </div>
@@ -308,9 +298,7 @@ The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through 
 
 	<figure markdown>
 	[![Soldering wires](./assets/img/hookup_guide/assembly-soldering-wires.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-wires.jpg "Click to enlarge")
-	<figcaption markdown>
-	Soldering wires to the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>Soldering wires to the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 </div>
@@ -329,9 +317,7 @@ The BlueSMiRF header pins on the Quad-band GNSS RTK board, breaks out the `UART2
 
 <figure markdown>
 [![Male Header Attached](./assets/img/hookup_guide/assembly-soldering-uart_header.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-uart_header.jpg "Click to enlarge")
-<figcaption markdown>
-Soldering male header pins to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering male header pins to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -341,9 +327,7 @@ Soldering male header pins to the Quad-band GNSS RTK breakout board.
 
 <figure markdown>
 [![Male Header Attached](./assets/img/hookup_guide/assembly-soldering-bluesmirf_header-top.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-bluesmirf_header-top.jpg "Click to enlarge")
-<figcaption markdown>
-Soldering female header pins to the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering female header pins to the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 </div>
@@ -353,9 +337,7 @@ Soldering female header pins to the Quad-band GNSS RTK breakout board.
 
 <figure markdown>
 [![Female Header Attached](./assets/img/hookup_guide/assembly-soldering-bluesmirf_header-bottom.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-bluesmirf_header-bottom.jpg "Click to enlarge")
-<figcaption markdown>
-Soldering female header pins to the back of the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering female header pins to the back of the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 ??? warning "Jumper Access"
@@ -363,9 +345,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 
 	<figure markdown>
 	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-bluesmirf_header.png){ width="400" }](./assets/img/hookup_guide/assembly-bluesmirf_header.png "Click to enlarge")
-	<figcaption markdown>
-	Female header covering the `BT-VCC` jumper.
-	</figcaption>
+	<figcaption markdown>Female header covering the `BT-VCC` jumper.</figcaption>
 	</figure>
 
 </div>
@@ -389,9 +369,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 
 	<figure markdown>
 	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-bluesmirf-top.jpg){ width="400" }](./assets/img/hookup_guide/assembly-bluesmirf-top.jpg "Click to enlarge")
-	<figcaption markdown>
-	Female header pins soldered to the top of the board.
-	</figcaption>
+	<figcaption markdown>Female header pins soldered to the top of the board.</figcaption>
 	</figure>
 
 	</div>
@@ -401,9 +379,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 
 	<figure markdown>
 	[![BlueSMiRF transceiver - bottom](./assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg){ width="400" }](./assets/img/hookup_guide/assembly-bluesmirf-bottom.jpg "Click to enlarge")
-	<figcaption markdown>
-	Female header pins soldered to the back of the board.
-	</figcaption>
+	<figcaption markdown>Female header pins soldered to the back of the board.</figcaption>
 	</figure>
 
 	</div>
@@ -415,9 +391,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 
 	<figure markdown>
 	[![Serial Basic](./assets/img/hookup_guide/assembly-uart_adapter.jpg){ width="400" }](./assets/img/hookup_guide/assembly-uart_adapter.jpg "Click to enlarge")
-	<figcaption markdown>
-	The adapter connected to the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>The adapter connected to the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 === "OpenLog"
@@ -429,9 +403,7 @@ Soldering female header pins to the back of the Quad-band GNSS RTK breakout boar
 
 	<figure markdown>
 	[![BlueSMiRF transceiver - top](./assets/img/hookup_guide/assembly-openlog_bottom.jpg){ width="400" }](./assets/img/hookup_guide/assembly-openlog_bottom.jpg "Click to enlarge")
-	<figcaption markdown>
-	An [OpenLog](https://www.sparkfun.com/products/13712) connected to the Quad-band GNSS RTK breakout board.
-	</figcaption>
+	<figcaption markdown>An [OpenLog](https://www.sparkfun.com/sparkfun-openlog.html) connected to the Quad-band GNSS RTK breakout board.</figcaption>
 	</figure>
 
 
@@ -441,9 +413,7 @@ SMD pads are provided for the [PPS](https://en.wikipedia.org/wiki/Pulse-per-seco
 
 <figure markdown>
 [![Soldering an SMA connector](./assets/img/hookup_guide/assembly-soldering-sma.jpg){ width="400" }](./assets/img/hookup_guide/assembly-soldering-sma.jpg "Click to enlarge")
-<figcaption markdown>
-Soldering an SMA connector to the SMD pads of the Quad-band GNSS RTK breakout board.
-</figcaption>
+<figcaption markdown>Soldering an SMA connector to the SMD pads of the Quad-band GNSS RTK breakout board.</figcaption>
 </figure>
 
 
