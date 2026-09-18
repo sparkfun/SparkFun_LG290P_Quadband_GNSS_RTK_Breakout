@@ -54,8 +54,10 @@ Repository Contents
 Product Variants
 ----------------
 
-* [GPS-26620](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html) - v1.0, Initial Release
-* [GPS-26916](https://www.sparkfun.com/sparkfun-rtk-postcard.html) - SparkFun RTK Postcard *(w/ ESP32)*
+- LG290P Variants
+  - [GPS-26620](https://www.sparkfun.com/sparkfun-quadband-gnss-rtk-breakout-lg290p-qwiic.html) - v1.0, Initial Release
+  - [GPS-26916](https://www.sparkfun.com/sparkfun-rtk-postcard.html) - SparkFun RTK Postcard *(w/ ESP32)*
+- [GPS-28019](https://www.sparkfun.com/products/28019) - SparkFun Quadband GNSS RTK Breakout - LG580P (Qwiic)
 
 Version History
 ---------------
