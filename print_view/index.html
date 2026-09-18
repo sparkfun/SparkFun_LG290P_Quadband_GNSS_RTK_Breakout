@@ -3782,10 +3782,37 @@ WRL-00593</a></p>
 <a href="../assets/img/hookup_guide/qgnss-reboot_button.png" title="Click to enlarge"><img alt="Reboot button" src="../assets/img/hookup_guide/qgnss-reboot_button.png" width="400" /></a>
 <figcaption markdown>Reboot button in the QGNSS software <em>(v2.1)</em>.</figcaption>
 </figure></p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>For previous versions of the QGNSS software, prior to initializing the firmware upgrade process, users can send the <code>PQTMSRR</code> message to perform a system reset and reboot the GNSS receiver. We recommend having everything pre-configured to upgrade the firmware as the module usually initializes within 5s of sending the <code>PQTMSRR</code> message.</p>
 </div>
+<div class="admonition example">
+<p class="admonition-title">Example - Step-by-Step Instructions</p>
+<ol>
+<li><a href="#connecting-to-the-lg290p">Connect to the LG290P</a></li>
+<li>From the <strong>Tools</strong> drop down menu, select <strong>Firmware Update</strong></li>
+</ol>
+<p><strong>Tools</strong> &gt; <strong>Firmware Update</strong></p>
+<ol>
+<li>Click the <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1.46 17.37v-2h-4v-1.99h4v-2l3 3zM13 9V3.5L18.5 9z"/></svg></span> button to select the receiver firmware</li>
+<li>Click <code>Settings</code> to select the baudrate</li>
+<li>Click to start the firmware upgrade process and wait for the process to complete</li>
+<li>
+<p>Reset module</p>
+</li>
+<li>
+<p>Click to choose the firmware upgrade package whose name is identifiable by the presence of “pkg” before the extension name</p>
+</li>
+<li>Click to start the firmware upgrade process and wait for synchronization between the module and the PC</li>
+<li>
+<p>Manually reset the module within 90 s; otherwise, the firmware upgrade will fail. In this case, you can retry the previous step</p>
+<details class="tip">
+<summary>Previous Versions</summary>
+<p>For previous versions of the QGNSS software, prior to initializing the firmware upgrade process, users can send the <code>PQTMSRR</code> <a href="#configure-the-lg290p">PQTM message</a> to perform a system reset and reboot the GNSS receiver. We recommend having everything pre-configured to upgrade the firmware as the module usually initializes within 5s of sending the <code>PQTMSRR</code> message.</p>
+</details>
+</li>
+<li>
+<p>Wait for upgrading to complete</p>
+</li>
+<li>Firmware upgrade is successful. After the upgrade is complete, the module will automatically restart</li>
+</ol>
 </div>
 <h3 id="pygpsclient">PyGPSClient<a class="headerlink" href="#pygpsclient" title="Permanent link"></a></h3>
 <p>As an alternative to QGNSS, for users with computers that run on MacOS or Linux (<em>including Raspberry Pi</em>), we recommend <a href="https://github.com/semuconsulting/PyGPSClient" target="_blank" rel="noopener">PyGPSClient</a> as an option for configuring the LG290P (<em>via proprietary NMEA sentences</em>), viewing standard and proprietary NMEA data from the receiver and connecting to an NTRIP caster.</p>
