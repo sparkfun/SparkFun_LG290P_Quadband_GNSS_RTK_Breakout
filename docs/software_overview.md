@@ -185,9 +185,30 @@ In the event that users need to update the firmware on the LG290P module, please
 	</figure>
 
 
-	!!! tip
-		For previous versions of the QGNSS software, prior to initializing the firmware upgrade process, users can send the `PQTMSRR` message to perform a system reset and reboot the GNSS receiver. We recommend having everything pre-configured to upgrade the firmware as the module usually initializes within 5s of sending the `PQTMSRR` message.
+!!! example "Example - Step-by-Step Instructions"
+	
 
+	1. [Connect to the LG290P](#connecting-to-the-lg290p)
+	1. From the **Tools** drop down menu, select **Firmware Update**
+
+	**Tools** > **Firmware Update**
+
+	1. Click the :material-file-send: button to select the receiver firmware
+	1. Click `Settings` to select the baudrate
+	1. Click to start the firmware upgrade process and wait for the process to complete
+	1. Reset module
+
+	1. Click to choose the firmware upgrade package whose name is identifiable by the presence of “pkg” before the extension name
+	1. Click to start the firmware upgrade process and wait for synchronization between the module and the PC
+	1. Manually reset the module within 90 s; otherwise, the firmware upgrade will fail. In this case, you can retry the previous step
+
+
+		??? tip "Previous Versions"
+			For previous versions of the QGNSS software, prior to initializing the firmware upgrade process, users can send the `PQTMSRR` [PQTM message](#configure-the-lg290p) to perform a system reset and reboot the GNSS receiver. We recommend having everything pre-configured to upgrade the firmware as the module usually initializes within 5s of sending the `PQTMSRR` message.
+
+
+	1. Wait for upgrading to complete
+	1. Firmware upgrade is successful. After the upgrade is complete, the module will automatically restart
 
 
 ### PyGPSClient
